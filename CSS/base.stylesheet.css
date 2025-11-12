@@ -1,0 +1,317 @@
+/* ==========================================================================
+   ADMIN BASE STYLESHEET (PHIÊN BẢN HOÀN CHỈNH)
+   Bao gồm: Biến màu gốc, Header, Sidebar, Footer, và Chuông thông báo.
+   ========================================================================== */
+
+/* --- BIẾN MÀU SẮC VÀ CÀI ĐẶT CHUNG (ĐÚNG NHƯ CODE GỐC) --- */
+:root {
+  --header-dark: #35356C;
+  --header-light: #f3cfff;
+  --primary-color: #004aad;
+  --primary-light: #cb6ce6;
+  --accent-color: #ffd84d;
+  --success-color: #28a745;
+  --danger-color: #ff3b30;
+  --warning-color: #ffc107;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666;
+  --bg-primary: #ebeaea;
+  --bg-card: #fff;
+  --border-color: #e2e6ef;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.12);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.15);
+  --border-radius: 12px;
+  --transition-normal: 0.25s ease;
+  --transition-fast: 0.15s ease;
+}
+
+/* --- RESET CSS VÀ THIẾT LẬP CƠ BẢN --- */
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ==========================================================================
+   HEADER CHUNG (COMMON HEADER)
+   ========================================================================== */
+.admin-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--header-dark);
+  color: white;
+  box-shadow: var(--shadow-md);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 20px;
+}
+
+.admin-header-left { display: flex; align-items: center; gap: 16px; }
+.hamburger { display: flex; flex-direction: column; justify-content: center; gap: 3px; width: 24px; height: 24px; background: none; border: none; cursor: pointer; }
+.hamburger span { width: 100%; height: 2px; background: white; border-radius: 2px; transition: all var(--transition-fast); }
+.admin-logo { height: 100px; width: auto; object-fit: contain; }
+.admin-header-center { flex: 1; min-width: 0; }
+.admin-header-right { display: flex; align-items: center; gap: 12px; }
+
+/* -- Search Component -- */
+.search-container { position: relative; max-width: 480px; margin: 0 auto; }
+.admin-search { width: 100%; padding: 7px 16px 7px 48px; border: none; border-radius: 25px; background: white; color: #36366D; font-size: 14px; transition: all var(--transition-normal); }
+.admin-search::placeholder { color: rgba(54, 54, 109, 0.7); }
+.search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: #36366D; font-size: 16px; }
+
+/* -- Notification Component (ĐÃ BAO GỒM DROPDOWN) -- */
+.admin-icon.notif { position: relative; }
+.notif-bell { background: none; border: none; padding: 8px; cursor: pointer; border-radius: 8px; }
+.notif-bell:hover { background: rgba(255, 255, 255, 0.1); }
+.notif-bell svg { width: 24px; height: 24px; color: white; }
+.notif-badge { position: absolute; top: 5px; right: 5px; background: var(--danger-color); color: white; border-radius: 50%; width: 16px; height: 16px; font-size: 10px; font-weight: 700; display: flex; align-items: center; justify-content: center; border: 2px solid var(--header-dark); }
+/* Animation chuông rung */
+@keyframes shake-bell { 0%, 100% { transform: rotate(0); } 10%, 30%, 50%, 70%, 90% { transform: rotate(-10deg); } 20%, 40%, 60%, 80% { transform: rotate(10deg); } }
+.notif-bell.has-new-notification { animation: shake-bell 0.8s cubic-bezier(.36,.07,.19,.97) both; }
+
+/* -- Notification Dropdown -- */
+.notif-dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  width: 340px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all var(--transition-normal);
+}
+.notif-dropdown.show { opacity: 1; visibility: visible; transform: translateY(0); }
+.notif-head { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; background: #f8f9ff; border-bottom: 1px solid var(--border-color); font-weight: 600; color: var(--primary-color); }
+.notif-count { font-size: 13px; color: var(--text-secondary); }
+.notif-dropdown ul { list-style: none; margin: 0; padding: 0; max-height: 280px; overflow-y: auto; }
+.notif-item { display: flex; gap: 12px; padding: 16px 20px; color: var(--text-primary); border-bottom: 1px solid #f5f6f8; cursor: pointer; transition: background-color var(--transition-fast); }
+.notif-item:hover { background-color: #f8f9ff; }
+.notif-item.unread { background-color: #f0f5ff; }
+.notif-icon { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; flex-shrink: 0; }
+.notif-icon.fa-shopping-cart { background: #d4edda; color: #155724; }
+.notif-icon.fa-undo { background: #f8d7da; color: #721c24; }
+.notif-icon.fa-ticket-alt { background: #cce5ff; color: #004085; }
+.notif-icon.fa-user-plus { background: #fff3cd; color: #856404; }
+.notif-item > div { flex: 1; min-width: 0; }
+.notif-time { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+.notif-viewall { display: block; padding: 12px 20px; text-align: center; color: var(--primary-color); text-decoration: none; font-weight: 600; border-top: 1px solid var(--border-color); transition: background-color var(--transition-fast); }
+.notif-viewall:hover { background: #f8f9ff; }
+.notifications-empty { padding: 40px 20px; text-align: center; color: var(--text-secondary); }
+.notifications-empty i { font-size: 24px; margin-bottom: 12px; display: block; }
+
+
+/* -- User Info Component -- */
+.admin-user { display: flex; align-items: center; gap: 12px; }
+.admin-avatar { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; border: 2px solid rgba(255, 255, 255, 0.5); }
+.admin-user-info { display: flex; flex-direction: column; }
+.admin-name { font-size: 14px; font-weight: 600; }
+.admin-role { font-size: 11px; opacity: 0.8; }
+.logout-btn { background: black; border: none; border-radius: 6px; padding: 8px 12px; color: white; cursor: pointer; font-size: 13px; }
+.logout-btn:hover { background: var(--danger-color); }
+
+/* ==========================================================================
+   SIDEBAR CHUNG (COMMON SIDEBAR)
+   ========================================================================== */
+.admin-layout {
+  display: flex;
+  min-height: calc(100vh - 60px);
+}
+
+.sidebar {
+  width: 260px;
+  background: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-light) 100%);
+  color: white;
+  flex-shrink: 0;
+  padding: 24px 0;
+  box-shadow: var(--shadow-lg);
+  transition: width var(--transition-slow);
+}
+
+.sidebar h2 {
+  text-align: center;
+  padding: 0 24px 16px;
+  margin: 0 0 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 24px;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: all var(--transition-normal);
+  position: relative;
+  border-radius: 0 16px 16px 0;
+  margin-right: 4px;
+}
+
+.sidebar-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(4px);
+}
+
+.sidebar-link.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  font-weight: 600;
+}
+
+.menu-text {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* ==========================================================================
+   FOOTER CHUNG (COMMON FOOTER)
+   ========================================================================== */
+.footer-top {
+  background-color: #9297AE;
+  color: #000000;
+  padding: 40px 0;
+}
+.footer-top .container { max-width: 1440px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 40px; }
+.footer-col h3 { font-size: 16px; margin-bottom: 15px; }
+.footer-col p, .footer-link { font-size: 14px; margin-bottom: 10px; color: #000; text-decoration: none; }
+.follow-us-title { margin-top: 25px; }
+.social-icons { display: flex; gap: 15px; }
+.social-icons img { width: 32px; height: 32px; }
+.app-download-title { margin-top: 20px; font-weight: 500; }
+.app-stores { display: flex; flex-direction: column; gap: 10px; align-items: flex-start; }
+.app-stores img { height: 40px; width: auto; }
+
+.footer-bottom {
+  background-color: #363667;
+  color: #FFFFFF;
+}
+.footer-bottom .container { max-width: 1440px; margin: 0 auto; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+.footer-bottom-left { display: flex; align-items: center; gap: 20px; }
+.footer-logo { height: 40px; }
+.footer-tagline p { font-weight: 700; font-size: 14px; margin: 0; }
+.footer-tagline span { font-size: 12px; }
+.bct-logo { height: 50px; }
+
+/* ==========================================================================
+   LOGOUT POPUP STYLES (COMMON COMPONENT)
+   ========================================================================== */
+.logout-overlay {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+}
+
+.logout-modal-container {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    width: 90%;
+    max-width: 360px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transform: scale(0.9);
+    opacity: 0;
+    animation: zoomIn 0.3s 0.1s forwards;
+}
+
+.logout-modal-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #ffebee;
+    color: #e53935;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 24px;
+}
+
+.logout-modal-container h2 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.logout-modal-container p {
+    margin: 0 0 25px 0;
+    color: #666;
+}
+
+.logout-modal-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.logout-modal-buttons button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-logout-confirm {
+    background-color: #e53935;
+    color: white;
+}
+.btn-logout-confirm:hover {
+    background-color: #c62828;
+}
+
+.btn-logout-cancel {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.btn-logout-cancel:hover {
+    background-color: #e0e0e0;
+}
+
+/* Animations */
+@keyframes fadeIn { to { opacity: 1; } }
+@keyframes zoomIn { to { opacity: 1; transform: scale(1); } }
+
+.logout-overlay.fade-out { animation: fadeOut 0.3s forwards; }
+.logout-modal-container.zoom-out { animation: zoomOut 0.3s forwards; }
+@keyframes fadeOut { to { opacity: 0; } }
+@keyframes zoomOut { to { opacity: 0; transform: scale(0.9); } }

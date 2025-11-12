@@ -1,0 +1,203 @@
+/* Kế thừa các biến từ base.stylesheet.css */
+@import url('base.stylesheet.css');
+/* Kế thừa các biến từ admin.homepage.css */
+@import url('admin.homepage.css');
+/* Kế thừa các style chung từ trang ticket.management */
+@import url('ticket.management.css');
+
+/* Tùy chỉnh nhỏ cho filter bar */
+.filter-bar .date-separator {
+    color: var(--text-secondary);
+}
+
+
+
+/* ======================= USER TABLE ======================= */
+/* ======================= USER TABLE (ĐÃ SỬA LỖI) ======================= */
+.user-table-container {
+  background: var(--bg-card);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  box-shadow: var(--shadow-md);
+  overflow-x: auto; /* Thêm thanh cuộn ngang nếu cần */
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* QUAN TRỌNG: Buộc các cột phải tuân theo độ rộng đã định */
+  min-width: 1100px; /* Đảm bảo bảng có độ rộng tối thiểu để không bị co quá mức */
+}
+
+.user-table th, .user-table td {
+  padding: 14px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 14px;
+  vertical-align: middle;
+  white-space: nowrap; /* Ngăn không cho nội dung bị xuống dòng đột ngột */
+  overflow: hidden; /* Ẩn nội dung bị tràn */
+  text-overflow: ellipsis; /* Hiển thị "..." nếu nội dung quá dài */
+}
+/* ===== BỔ SUNG ĐOẠN NÀY VÀO ===== */
+.user-table th:nth-child(1), .user-table td:nth-child(1) { width: 4%; } /* Checkbox */
+.user-table th:nth-child(2), .user-table td:nth-child(2) { width: 25%; } /* Người dùng */
+.user-table th:nth-child(3), .user-table td:nth-child(3) { width: 15%; } /* Vai trò */
+.user-table th:nth-child(4), .user-table td:nth-child(4) { width: 12%; text-align: center;} /* Hoạt động mua */
+.user-table th:nth-child(5), .user-table td:nth-child(5) { width: 14%; text-align: center;} /* Hoạt động tổ chức */
+.user-table th:nth-child(6), .user-table td:nth-child(6) { width: 12%; } /* Ngày tham gia */
+.user-table th:nth-child(7), .user-table td:nth-child(7) { width: 10%; } /* Trạng thái */
+.user-table th:nth-child(8), .user-table td:nth-child(8) { width: 8%; text-align: center;} /* Hành động */
+
+/* Cho phép cột "Người dùng" có thể xuống dòng nếu cần */
+.user-table td:nth-child(2) {
+    white-space: normal;
+}
+/* Canh giữa một vài cột cho đẹp mắt */
+.user-table th {
+    text-align: left;
+}
+.user-table th:nth-child(4), 
+.user-table th:nth-child(5),
+.user-table th:nth-child(8) {
+    text-align: center;
+}
+/* ==================================== */
+.user-table tbody tr:hover {
+  background-color: #f8f9ff;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.user-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-email {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.role-tag {
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 4px;
+    white-space: nowrap;
+}
+.role-buyer { background: #cfe2ff; color: #084298; }
+.role-organizer { background: #e2d9f3; color: #492888; }
+
+.status-tag {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+.status-active { background-color: var(--success-color); }
+.status-suspended { background-color: var(--danger-color); }
+
+/* ======================= USER DETAIL MODAL ======================= */
+.modal-content.large {
+    max-width: 900px;
+}
+.modal-header {
+    text-align: center;
+    padding: 24px;
+    background: #f8f9ff;
+    border-bottom: 1px solid var(--border-color);
+}
+#modalUserAvatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #fff;
+    box-shadow: var(--shadow-md);
+}
+#modalUserName {
+    margin: 0;
+    font-size: 22px;
+}
+#modalUserEmail {
+    color: var(--text-secondary);
+}
+
+.tab-nav {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 20px;
+}
+.tab-btn {
+    padding: 12px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    border-bottom: 3px solid transparent;
+    transition: all var(--transition-fast);
+}
+.tab-btn:hover {
+    color: var(--primary-color);
+}
+.tab-btn.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+.tab-content.hidden { display: none; }
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+}
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; font-weight: 600; margin-bottom: 6px; }
+
+/* Bảng trong modal */
+.modal-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.modal-table th, .modal-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+.modal-table th { font-weight: 600; }
+#notes-textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    resize: vertical;
+}
+/* ======================= SUMMARY BAR (TINH CHỈNH) ======================= */
+.summary-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Giảm kích thước tối thiểu */
+  gap: 20px;
+  margin: 24px 0;
+}
+.summary-card {
+  display: flex;
+  align-items: center;
+  background: var(--bg-card);
+  padding: 20px; /* Có thể giảm padding nếu muốn */
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+}
