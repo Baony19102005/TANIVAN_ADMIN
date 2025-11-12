@@ -1,0 +1,2231 @@
+[
+  {
+  "id": "ev2512010",
+  "tenSuKien": "[CONCERT] Anh Trai Vượt Ngàn Chông Gai DAY3, DAY4",
+  "anhSuKien": "../Images/images/events/ev2512010/ev2512010-poster.jpg",
+  "banner": "../Images/images/events/ev2512010/ev2512010-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Thủ Đức",
+      "phuong": "An Phú",
+      "soNha": "The Global City"
+    }
+  },
+  "theLoai": "Âm nhạc",
+  "thongTinSuKien": "Anh Trai Vượt Ngàn Chông Gai trở lại với hai đêm diễn đặc biệt (DAY 3 và DAY 4) tại The Global City. Sân khấu được thiết kế hoành tráng, hệ thống âm thanh – ánh sáng tiêu chuẩn lễ hội, mang đến trải nghiệm bùng nổ cảm xúc.\n\nNội dung nổi bật:\n- Dàn line-up quy tụ các nghệ sĩ nổi tiếng của chương trình cùng nhiều tiết mục phối mới.\n- Khu vực khán giả được chia rõ theo hạng vé, tối ưu tầm nhìn và trải nghiệm.\n- Khu tiện ích onsite: quầy F&B, khu chờ check-in, quầy merchandise chính thức.\n\nQuy định/chú ý:\n- Khuyến nghị khán giả từ 12 tuổi trở lên. Khán giả dưới 16 tuổi cần có người giám hộ đi cùng.\n- Không mang vũ khí, vật sắc nhọn, chất cháy nổ, dù/gậy selfie, máy quay chuyên dụng.\n- Vào cổng theo luồng hướng dẫn của BTC; giữ gìn trật tự, không chen lấn xô đẩy.\n- Vé sau khi mua không hoàn/đổi trong mọi trường hợp, trừ khi BTC thông báo hoãn/hủy.\n\nGợi ý di chuyển:\n- Ưu tiên phương tiện công cộng/xe công nghệ; theo biển chỉ dẫn để vào đúng cổng soát vé.",
+  "linkSuKien": "https://tannivan.vn/event/ev2512010-anh-trai-vuot-ngan-chong-gai",
+  "banToChuc": {
+    "ten": "Techcombank x YeaH1 Group x 1Production",
+    "thongTin": "Techcombank x YeaH1 Group x 1Production",
+    "logo": "../Images/images/events/ev2512010/ev2512010-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-03-23T19:00:00",
+    "ketThuc": "2025-03-23T23:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "DAY 3",
+      "batDau": "2025-03-23T19:00:00",
+      "ketThuc": "2025-03-23T23:00:00"
+    },
+    {
+      "ten": "DAY 4",
+      "batDau": "2025-03-24T19:00:00",
+      "ketThuc": "2025-03-24T23:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "CHUNG TAY 1",
+      "giaVe": 700000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#1E3A8A",
+      "thongTinVe": "Khu vực xa sân khấu, tầm nhìn thoáng."
+    },
+    {
+      "tenVe": "CHUNG TAY 2",
+      "giaVe": 700000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#1E3A8A",
+      "thongTinVe": "Khu vực xa sân khấu, tầm nhìn thoáng."
+    },
+    {
+      "tenVe": "MẠNH MẼ 1",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực trung tâm bên trái sân khấu."
+    },
+    {
+      "tenVe": "MẠNH MẼ 2",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực trung tâm bên phải sân khấu."
+    },
+    {
+      "tenVe": "ĐOÀN KẾT 1",
+      "giaVe": 1800000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực VIP, chính giữa, gần sân khấu nhất."
+    },
+    {
+      "tenVe": "ĐOÀN KẾT 2",
+      "giaVe": 1800000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực VIP, chính giữa, gần sân khấu nhất."
+    },
+    {
+      "tenVe": "ĐỒNG LÒNG 1",
+      "giaVe": 900000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#8B5CF6",
+      "thongTinVe": "Khu vực phía trên trái sân khấu, tầm nhìn rộng."
+    },
+    {
+      "tenVe": "ĐỒNG LÒNG 2",
+      "giaVe": 900000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#8B5CF6",
+      "thongTinVe": "Khu vực phía trên phải sân khấu, tầm nhìn rộng."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2512010/ev2512010-seatmap.png",
+    "mappingMau": {
+      "#8B5CF6": "ĐỒNG LÒNG",
+      "#F59E0B": "MẠNH MẼ",
+      "#EF4444": "ĐOÀN KẾT",
+      "#1E3A8A": "CHUNG TAY"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Yeah 1 Group",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Thủ Đức",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+,
+  {
+  "id": "ev2510001",
+  "tenSuKien": "TOUR ĐÊM VĂN MIẾU - VAN MIEU NIGHT TOUR",
+  "anhSuKien": "../Images/images/events/ev2510001/ev2510001-poster.jpg",
+  "banner": "../Images/images/events/ev2510001/ev2510001-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "Hà Nội",
+      "quan": "Đống Đa",
+      "phuong": "Văn Miếu",
+      "soNha": "58, Quốc Tử Giám"
+    }
+  },
+  "theLoai": "Sân khấu & Nghệ thuật",
+  "thongTinSuKien": "<section><h3>Giới thiệu sự kiện</h3><p><strong>TOUR ĐÊM VĂN MIẾU - VAN MIEU NIGHT TOUR (Sự kiện đặc biệt có chỗ ngồi)</strong> là hành trình khám phá không gian Văn Miếu – Quốc Tử Giám sau hoàng hôn, nơi di sản được kể lại bằng nghệ thuật trình diễn và công nghệ ánh sáng.</p><h4>Nội dung trải nghiệm</h4><ul><li>Tham quan đêm theo lộ trình hướng dẫn, tìm hiểu lịch sử giáo dục Nho học Việt Nam.</li><li>Tương tác cùng thầy Đồ, trải nghiệm xin chữ, khám phá bia tiến sĩ và giao lưu với linh vật <strong>Cụ Rùa Thông Thái</strong>.</li><li>Trình chiếu 3D mapping “Tinh hoa đạo học” và “Sử đá lưu danh” với hệ thống âm thanh – ánh sáng chuyên nghiệp.</li><li>Khu trải nghiệm – check-in chủ đề văn hiến; quầy quà tặng lưu niệm.</li></ul><h4>Thời gian vận hành</h4><ul><li><strong>Mở cửa đón khách:</strong> 18:30</li><li><strong>Trình diễn chính:</strong> 19:30 - 22:30 (ngày 19/11/2025)</li></ul><h4>Lưu ý &amp; quy định</h4><ul><li>Trong trường hợp bất khả kháng (thời tiết xấu hoặc lý do vận hành), vé đã mua được hỗ trợ đổi sang ngày khác phù hợp theo thông báo của Ban tổ chức; vé không hoàn tiền trong mọi trường hợp khác.</li><li>Không mang đồ ăn hoặc thức uống bên ngoài vào khu vực sự kiện; vui lòng tuân thủ hướng dẫn của Ban tổ chức và bảo vệ di tích.</li><li>Khuyến nghị người tham dự đến sớm 15–20 phút để làm thủ tục soát vé và ổn định chỗ ngồi.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2510001-van-mieu-night-tour",
+  "banToChuc": {
+    "ten": "Trung tâm Hoạt động Văn hóa Khoa học Văn Miếu – Quốc Tử Giám",
+    "thongTin": "Tổ chức bởi Trung tâm Hoạt động Văn hóa Khoa học Văn Miếu – Quốc Tử Giám.",
+    "logo": "../Images/images/events/ev2510001/ev2510001-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-19T19:30:00",
+    "ketThuc": "2025-11-19T22:30:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Suất duy nhất",
+      "batDau": "2025-11-19T19:30:00",
+      "ketThuc": "2025-11-19T22:30:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Hạng VIP (Khu A-G)",
+      "giaVe": 320000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực gần sân khấu nhất (Khu A-G). Không dành cho trẻ dưới 12 tuổi. (Màu Đỏ)"
+    },
+    {
+      "tenVe": "Hạng Regular (Khu H-O)",
+      "giaVe": 270000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 300,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực giữa (Khu H-O). Không dành cho trẻ dưới 12 tuổi. (Màu Cam/Vàng)"
+    },
+    {
+      "tenVe": "Vé HSSV (Khu LA-LB)",
+      "giaVe": 220000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 2,
+      "mauKhuVuc": "#3B82F6",
+      "thongTinVe": "Khu vực xa sân khấu (Khu LA-LB). Vui lòng xuất trình giấy tờ khi tham dự. (Màu Xanh Dương)"
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2510001/ev2510001-seatmap.png",
+    "mappingMau": {
+      "#EF4444": "Hạng VIP (Khu A-G)",
+      "#F59E0B": "Hạng Regular (Khu H-O)",
+      "#3B82F6": "Vé HSSV (Khu LA-LB)"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Trung tâm Hoạt động Văn hóa Khoa học Văn Miếu – Quốc Tử Giám",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Thủ Đức",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2511001",
+  "tenSuKien": "G-DRAGON 2025 WORLD TOUR [ÜBERMENSCH] IN HANOI, PRESENTED BY VPBANK",
+  "anhSuKien": "../Images/images/events/ev2511001/ev2511001-poster.png",
+  "banner": "../Images/images/events/ev2511001/ev2511001-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "Hà Nội",
+      "quan": "Huyện Văn Giang",
+      "phuong": "Xuân Quan",
+      "soNha": "VinWonders Ocean Park 2, Xã Nghĩa Trụ, Tỉnh Hưng Yên"
+    }
+  },
+  "theLoai": "Âm nhạc",
+  "thongTinSuKien": "<section><h3>Giới thiệu chương trình</h3><p><strong>G-DRAGON 2025 WORLD TOUR [ÜBERMENSCH] IN HANOI, PRESENTED BY VPBANK</strong> chính thức được tổ chức tại Việt Nam — điểm dừng chân đầu tiên trong chuỗi World Tour toàn cầu của G-DRAGON.</p><p>Sự kiện nằm trong khuôn khổ lễ hội âm nhạc quốc tế <strong>8Wonder Music Series</strong>, hứa hẹn mang đến trải nghiệm đỉnh cao với sân khấu ngoài trời quy mô hàng chục nghìn khán giả, hệ thống âm thanh – ánh sáng đẳng cấp thế giới và những màn trình diễn bùng nổ cảm xúc.</p><h4>Điểm nổi bật</h4><ul><li>Đêm diễn duy nhất trong khuôn khổ world tour, mở đầu cho hành trình toàn cầu của G-DRAGON.</li><li>Sân khấu thiết kế 360°, hiệu ứng âm thanh ánh sáng theo chuẩn quốc tế.</li><li>Khu VIP lounge, quầy merchandise độc quyền, khu vực check-in theo chủ đề <em>ÜBERMENSCH</em>.</li><li>Sự kiện được đồng hành bởi <strong>VPBank</strong> – Nhà tài trợ chính thức.</li></ul><h4>Quy định &amp; Lưu ý</h4><ul><li>Vé chỉ có giá trị cho ngày <strong>08/11/2025</strong>, không hoàn/đổi trong mọi trường hợp.</li><li>Khuyến nghị khán giả <strong>từ 15 tuổi trở lên</strong>, mang theo <strong>CMND/CCCD</strong> để kiểm tra tại cổng.</li><li>Không mang theo đồ ăn, thức uống, vật sắc nhọn, chất cháy nổ, máy quay chuyên dụng, gậy selfie, hoặc ô dù.</li><li>Ban tổ chức có quyền từ chối phục vụ những trường hợp vi phạm nội quy hoặc gây rối.</li></ul><h4>Gợi ý di chuyển</h4><ul><li>Khu vực <strong>VinWonders Ocean Park 2</strong> cách trung tâm Hà Nội khoảng 30 phút di chuyển bằng ô tô.</li><li>Có <strong>xe bus trung chuyển</strong> do BTC phối hợp cùng VPBank hỗ trợ, khởi hành từ Vincom Bà Triệu và Royal City.</li><li>Ưu tiên đặt chỗ sớm qua ứng dụng <strong>Tanivan</strong> để đảm bảo vị trí tốt nhất.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2511001-gdragon-ubermensch-hanoi",
+  "banToChuc": {
+    "ten": "8Wonder x Vingroup x VPBank",
+    "thongTin": "8Wonder là thương hiệu sự kiện âm nhạc quốc tế được phát triển bởi Tập đoàn Vingroup, với sự đồng hành của VPBank – mang đến trải nghiệm âm nhạc đẳng cấp toàn cầu.",
+    "logo": "../Images/images/events/ev2511001/ev2511001-logo-btc.jpg"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-08T20:00:00",
+    "ketThuc": "2025-11-08T23:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "ĐÊM DUY NHẤT",
+      "batDau": "2025-11-08T20:00:00",
+      "ketThuc": "2025-11-08T23:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "VVIP-A",
+      "giaVe": 8000000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#C44F35",
+      "thongTinVe": "Khu vực đứng gần sân khấu nhất, bao gồm quyền sử dụng VIP lounge, quà lưu niệm và lối check-in riêng."
+    },
+    {
+      "tenVe": "VVIP-B",
+      "giaVe": 8000000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#C44F35",
+      "thongTinVe": "Khu vực đứng gần sân khấu nhất, bao gồm quyền sử dụng VIP lounge, quà lưu niệm và lối check-in riêng."
+    },
+    {
+      "tenVe": "VIP-A",
+      "giaVe": 7300000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#B67C9D",
+      "thongTinVe": "Khu vực đứng cận sân khấu, tầm nhìn trung tâm, quyền vào khu lounge riêng."
+    },
+    {
+      "tenVe": "VIP-B",
+      "giaVe": 7300000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#B67C9D",
+      "thongTinVe": "Khu vực đứng cận sân khấu, tầm nhìn trung tâm, quyền vào khu lounge riêng."
+    },
+    {
+      "tenVe": "PREMIUM",
+      "giaVe": 6500000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#D3AF37",
+      "thongTinVe": "Khu vực đứng, vị trí trung tâm, tầm nhìn tốt."
+    },
+    {
+      "tenVe": "CAT-1A",
+      "giaVe": 6000000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#70D5A3",
+      "thongTinVe": "Khu vực ngồi A, tầm nhìn gần sân khấu."
+    },
+    {
+      "tenVe": "CAT-1B",
+      "giaVe": 6000000,
+      "trangThai": "Còn vé",
+      "mauKhuVuc": "#70D5A3",
+      "thongTinVe": "Khu vực ngồi B, tầm nhìn gần sân khấu."
+    },
+    {
+      "tenVe": "CAT-2A",
+      "giaVe": 5000000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#7D9D81",
+      "thongTinVe": "Khu vực ngồi A, tầm nhìn trung bình."
+    },
+    {
+      "tenVe": "CAT-2B",
+      "giaVe": 5000000,
+      "trangThai": "Còn vé",
+      "mauKhuVuc": "#7D9D81",
+      "thongTinVe": "Khu vực ngồi B, tầm nhìn trung bình."
+    },
+    {
+      "tenVe": "CAT-3A",
+      "giaVe": 4000000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#A8C16D",
+      "thongTinVe": "Khu vực ngồi A, tầm nhìn xa hơn."
+    },
+    {
+      "tenVe": "CAT-3B",
+      "giaVe": 4000000,
+      "trangThai": "Còn vé",
+      "mauKhuVuc": "#A8C16D",
+      "thongTinVe": "Khu vực ngồi B, tầm nhìn xa hơn."
+    },
+    {
+      "tenVe": "CAT-3A (RV - Tầm nhìn hạn chế)",
+      "giaVe": 3600000,
+      "trangThai": "Còn vé",
+      "mauKhuVuc": "#A8C16D",
+      "thongTinVe": "Khu vực ngồi A, tầm nhìn hạn chế (Reduced View)."
+    },
+    {
+      "tenVe": "CAT-3B (RV - Tầm nhìn hạn chế)",
+      "giaVe": 3600000,
+      "trangThai": "Còn vé",
+      "mauKhuVuc": "#A8C16D",
+      "thongTinVe": "Khu vực ngồi B, tầm nhìn hạn chế (Reduced View)."
+    },
+    {
+      "tenVe": "CAT-4A",
+      "giaVe": 3000000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#33C2CA",
+      "thongTinVe": "Khu vực đứng phía sau CAT-2/3, tầm nhìn xa."
+    },
+    {
+      "tenVe": "CAT-4B",
+      "giaVe": 3000000,
+      "trangThai": "Còn vé",
+      "mauKhuVuc": "#33C2CA",
+      "thongTinVe": "Khu vực đứng phía sau CAT-2/3, tầm nhìn xa."
+    },
+    {
+      "tenVe": "CAT-5A",
+      "giaVe": 2500000,
+      "trangThai": "Đã hết",
+      "mauKhuVuc": "#2D3F5C",
+      "thongTinVe": "Khu vực đứng xa nhất, giá vé thấp nhất."
+    },
+    {
+      "tenVe": "CAT-5B",
+      "giaVe": 2500000,
+      "trangThai": "Còn vé",
+      "mauKhuVuc": "#2D3F5C",
+      "thongTinVe": "Khu vực đứng xa nhất, giá vé thấp nhất."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2511001/ev2511001-seatmap.jpg",
+    "mappingMau": {
+      "#C44F35": "VVIP (Đứng)",
+      "#B67C9D": "VIP (Đứng)",
+      "#D3AF37": "PREMIUM (Đứng)",
+      "#70D5A3": "CAT-1 (Ngồi)",
+      "#7D9D81": "CAT-2 (Ngồi)",
+      "#A8C16D": "CAT-3 (Ngồi)",
+      "#33C2CA": "CAT-4 (Đứng)",
+      "#2D3F5C": "CAT-5 (Đứng)"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "VPBank",
+    "soTaiKhoan": "123456789",
+    "nganHang": "VPBank",
+    "chiNhanh": "Hà Nội",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty Cổ phần",
+      "hoTen": "Công ty Cổ phần Sự kiện 8Wonder",
+      "diaChi": "Tòa nhà Vinhomes Ocean Park, Hưng Yên",
+      "maSoThue": "0101234567"
+    }
+  }
+}
+
+,
+
+{
+  "id": "ev2512001",
+  "tenSuKien": "[CAT&MOUSE] Ca Sĩ Bạch Công Khanh và ca sĩ Phương Vũ",
+  "anhSuKien": "../Images/images/events/ev2512001/ev2512001-poster.jpg",
+  "banner": "../Images/images/events/ev2512001/ev2512001-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 3",
+      "phuong": "Phường Võ Thị Sáu",
+      "soNha": "37B Phạm Ngọc Thạch, Cat&Mouse Live Music"
+    }
+  },
+  "theLoai": "Sân khấu & Nghệ thuật",
+  "thongTinSuKien": "<section><h3>Giới thiệu</h3><p>Với không gian được đầu tư hệ thống ánh sáng – âm thanh đẳng cấp quốc tế cùng quầy bar cocktail chuyên nghiệp, <strong>Cat&Mouse Live Music</strong> mang đến một đêm nhạc đặc biệt:</p><ul><li><strong>Ca sĩ Bạch Công Khanh</strong> với chất giọng ấm áp, tình cảm;</li><li><strong>Ca sĩ Phương Vũ</strong> với phong cách mạnh mẽ, cuốn hút;</li></ul><p>Hai sắc thái khác biệt sẽ hòa quyện tạo nên cung bậc cảm xúc khó quên cho khán giả.</p><h4>Sự kiện bao gồm</h4><ul><li>Khu vực ghế sofa gần sân khấu cho trải nghiệm đỉnh cao.</li><li>Phục vụ cocktail và thức ăn nhẹ tặng khách tham dự.</li><li>Không gian chill-lounge trước và sau phần biểu diễn để thư giãn.</li></ul><h4>Quy định chung</h4><ul><li>Ban tổ chức có quyền kiểm tra tư trang, từ chối mang theo vật dụng nguy hiểm hoặc thức ăn/thức uống từ ngoài vào.</li><li>Vệ sĩ và đội ngũ an ninh được bố trí tại cổng; khán giả vi phạm quy định có thể bị mời ra khỏi khu vực biểu diễn và vé sẽ không hoàn trả.</li><li>Người tham dự chấp nhận việc Ban tổ chức có quyền sử dụng hình ảnh và tư liệu ghi hình sự kiện.</li><li>Không mang đồ ăn, thức uống, ghế tự mang, vũ khí, đèn laser/đèn pin, ô dù, gậy selfie hoặc chân máy ảnh.</li><li>Không mang băng rôn hoặc cờ có kích thước lớn hơn 20×20 cm.</li><li>Phụ nữ mang thai, trẻ em dưới 14 tuổi (hoặc người cao dưới 1m) phải đi cùng người lớn.</li><li>Vé sẽ không được hoàn trả vì bất kỳ lý do nào.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2512001-bach-cong-khanh-phuong-vu",
+  "banToChuc": {
+    "ten": "Cat&Mouse Live Music",
+    "thongTin": "Cat&Mouse Live Music với không gian được đầu tư hệ thống ánh sáng-âm thanh đẳng cấp quốc tế và quầy bar phục vụ cocktail chuyên nghiệp.",
+    "logo": "../Images/images/events/ev2512001/ev2512001-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-12-13T20:00:00",
+    "ketThuc": "2025-12-13T23:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Đêm duy nhất",
+      "batDau": "2025-12-13T20:00:00",
+      "ketThuc": "2025-12-13T23:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "SUPER VIP",
+      "giaVe": 900000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 50,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực ghế sofa gần sân khấu nhất, tầm nhìn tuyệt vời."
+    },
+    {
+      "tenVe": "VIP",
+      "giaVe": 700000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực ghế cao, tầm nhìn tốt."
+    },
+    {
+      "tenVe": "STANDARD 1",
+      "giaVe": 600000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#10B981",
+      "thongTinVe": "Khu vực ngồi tiêu chuẩn 1 (tầng trệt)."
+    },
+    {
+      "tenVe": "STANDARD 2",
+      "giaVe": 500000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#33C2CA",
+      "thongTinVe": "Khu vực ngồi tiêu chuẩn 2 (tầng hầm hoặc khu vực lưng)."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2512001/ev2512001-seatmap.png",
+    "mappingMau": {
+      "#EF4444": "SUPER VIP",
+      "#F59E0B": "VIP",
+      "#10B981": "STANDARD 1",
+      "#33C2CA": "STANDARD 2"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Cat&Mouse Live Music",
+    "soTaiKhoan": "123456789",
+    "nganHang": "VPBank",
+    "chiNhanh": "Quận 3",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+
+{
+  "id": "ev2511002",
+  "tenSuKien": "Nhà Hát Kịch IDECAF: DƯỚI BÓNG GIA NHÂN",
+  "anhSuKien": "../Images/images/events/ev2511002/ev2511002-poster.jpg",
+  "banner": "../Images/images/events/ev2511002/ev2511002-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 1",
+      "phuong": "Bến Nghé",
+      "soNha": "Nhà hát Thanh Niên, 4 Phạm Ngọc Thạch"
+    }
+  },
+  "theLoai": "Sân khấu & Nghệ thuật",
+  "thongTinSuKien": "<section><h3>Giới thiệu chương trình</h3><p><strong>Dưới Bóng Gia Nhân</strong> – một trong những vở diễn kinh điển của <strong>Nhà Hát Kịch IDECAF</strong>, trở lại với diện mạo hoàn toàn mới, mang đến cho khán giả những cảm xúc sâu lắng về thân phận con người, danh dự và tình yêu trong xã hội phong kiến.</p><h4>Nội dung</h4><ul><li>Câu chuyện tái hiện một góc nhìn mới về <strong>Truyện Kiều</strong>, qua lăng kính của người hầu – những nhân vật ít được nhắc đến nhưng lại chứng kiến toàn bộ thăng trầm của số phận Kiều.</li><li>Xen lẫn bi kịch và châm biếm, vở diễn phản ánh tầng sâu nhân tính, khát vọng tự do và giá trị của con người giữa giai cấp và định kiến.</li></ul><h4>Đội ngũ thực hiện</h4><ul><li><strong>Tác giả:</strong> Quang Thảo</li><li><strong>Đạo diễn:</strong> Quang Thảo</li><li><strong>Diễn viên:</strong> Thanh Thủy, Hồng Ánh, Hoàng Trinh, Mỹ Duyên, Tuyết Mai, Bạch Long, Đình Toàn, Đại Nghĩa, Công Danh, Trịnh Minh Dũng, Nguyễn Lê Nguyên, Lộ Lộ, Hoàng Vân Anh, Ngọc Trâm, Phạm Hạnh, Thanh Anh, Trúc My, Bích Trâm, Bảo Cường, Nhã Hạt Thiếu Nhi Nụ Cười và <strong>sự góp mặt đặc biệt của NS Bửu Đắc</strong>.</li></ul><h4>Thông tin thêm</h4><ul><li><strong>Thời lượng:</strong> Khoảng 150 phút (bao gồm giải lao 10 phút).</li><li><strong>Ngôn ngữ biểu diễn:</strong> Tiếng Việt.</li><li><strong>Độ tuổi phù hợp:</strong> Từ 12 tuổi trở lên.</li></ul><h4>Lưu ý</h4><ul><li>Vui lòng có mặt <strong>trước giờ diễn ít nhất 15 phút</strong> để ổn định chỗ ngồi.</li><li>Không quay phim, chụp ảnh, sử dụng điện thoại trong quá trình biểu diễn.</li><li>Vé đã mua <strong>không hoàn/đổi</strong>, trừ khi sự kiện bị hoãn hoặc hủy bởi Nhà hát.</li><li>Trẻ em dưới 12 tuổi <strong>không được khuyến khích tham dự</strong>.</li></ul><h4>Gợi ý di chuyển</h4><ul><li>Có bãi gửi xe ngay tại Nhà hát Thanh Niên hoặc khu vực gần Nhà Văn hóa Thanh Niên.</li><li>Ưu tiên di chuyển bằng xe công nghệ hoặc phương tiện công cộng để tránh kẹt xe vào giờ cao điểm trung tâm Quận 1.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2511002-duoi-bong-gia-nhan",
+  "banToChuc": {
+    "ten": "Nhà Hát Kịch IDECAF",
+    "thongTin": "Nhà Hát Kịch IDECAF là một trong những đơn vị nghệ thuật hàng đầu TP.HCM, nổi tiếng với các vở diễn được đầu tư kỹ lưỡng về nội dung và dàn dựng, hướng đến giá trị nhân văn sâu sắc.",
+    "logo": "../Images/images/events/ev2511002/ev2511002-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-16T19:30:00",
+    "ketThuc": "2025-11-16T22:30:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Đêm duy nhất",
+      "batDau": "2025-11-16T19:30:00",
+      "ketThuc": "2025-11-16T22:30:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Hạng VIP (Khu vực Đỏ)",
+      "giaVe": 320000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Vé khu vực tốt nhất (Khu vực Đỏ), tầm nhìn gần sân khấu. Không dành cho trẻ dưới 12 tuổi."
+    },
+    {
+      "tenVe": "Hạng Regular (Khu vực Cam/Vàng)",
+      "giaVe": 270000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Vé khu vực giữa (Khu vực Cam/Vàng), tầm nhìn rõ, âm thanh tốt."
+    },
+    {
+      "tenVe": "Vé HSSV (Khu vực Xanh Dương)",
+      "giaVe": 220000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#3B82F6",
+      "thongTinVe": "Vé dành cho Học sinh/Sinh viên (Khu vực Xanh Dương). Cần xuất trình thẻ HSSV khi vào cửa."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2511002/ev2511002-seatmap.png",
+    "mappingMau": {
+      "#EF4444": "Hạng VIP (Khu vực Đỏ)",
+      "#F59E0B": "Hạng Regular (Khu vực Cam/Vàng)",
+      "#3B82F6": "Vé HSSV (Khu vực Xanh Dương)"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Nhà Hát Kịch IDECAF",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Quận 1",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2511003",
+  "tenSuKien": "SÂN KHẤU NGHỆ THUẬT TRƯƠNG HÙNG MINH: NGÀY MAI NGƯỜI TA LẤY CHỒNG",
+  "anhSuKien": "../Images/images/events/ev2511003/ev2511003-poster.jpg",
+  "banner": "../Images/images/events/ev2511003/ev2511003-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 10",
+      "phuong": "Phường 02",
+      "soNha": "22 Vĩnh Viễn, Sân khấu Nghệ thuật Trương Hùng Minh"
+    }
+  },
+  "theLoai": "Sân khấu & Nghệ thuật",
+  "thongTinSuKien": "<section><h3>Giới thiệu chương trình</h3><p><strong>Ngày Mai Người Ta Lấy Chồng</strong> – một tác phẩm hài kịch đặc sắc của <strong>Sân khấu Nghệ thuật Trương Hùng Minh</strong>, xoay quanh những câu chuyện đầy éo le, vui nhộn nhưng thấm đẫm cảm xúc về tình thân, hôn nhân và định kiến xã hội.</p><h4>Nội dung</h4><ul><li>Kịch kể về hai gia đình sui gia tưởng như đối nghịch, với hàng loạt tình huống trớ trêu khi con cái họ bất ngờ nên duyên.</li><li>Hài hước, duyên dáng và mang thông điệp nhân văn: hạnh phúc thật sự không nằm ở định kiến, mà ở sự bao dung và thấu hiểu.</li><li>Các tình huống gây cười được dẫn dắt tinh tế, kết hợp cùng cảm xúc chân thật tạo nên dấu ấn riêng của sân khấu Trương Hùng Minh.</li></ul><h4>Đội ngũ thực hiện</h4><ul><li><strong>Tác giả:</strong> Trần Văn Hùng</li><li><strong>Đạo diễn:</strong> Gia Bảo</li><li><strong>Cố vấn nghệ thuật:</strong> NSND Trần Ngọc Giàu</li><li><strong>Giám đốc sản xuất:</strong> NSƯT Minh Nhí</li><li><strong>Diễn viên:</strong> Minh Nhí, Bình Tinh, Thái Vinh, Chinh Trực, Gia Bảo, Hiền Nguyễn, Diva Cát Thy, Bảo Bảo, Vô Minh Khải, Dĩ Dương, Năm Chà, Duy Vũ, Quách Thành Nhân và các diễn viên trẻ của sân khấu.</li></ul><p><strong>Thời lượng:</strong> Khoảng 150 phút (bao gồm nghỉ giải lao 10 phút).</p><h4>Lưu ý khi tham dự</h4><ul><li>Không quay phim, chụp hình hoặc sử dụng điện thoại trong khi biểu diễn.</li><li>Chỉ được dùng đồ ăn nhẹ và thức uống mua tại rạp.</li><li>Vui lòng đến trước giờ diễn ít nhất 15 phút để ổn định chỗ ngồi.</li><li>Vé đã mua <strong>không hoàn/đổi</strong>, trừ trường hợp sự kiện bị hoãn hoặc hủy bởi Ban tổ chức.</li><li>Trẻ em dưới 12 tuổi không được khuyến khích tham dự.</li></ul><h4>Gợi ý di chuyển</h4><ul><li>Gửi xe tại bãi giữ xe sân khấu hoặc khu vực lân cận đường Vĩnh Viễn.</li><li>Ưu tiên sử dụng xe công nghệ hoặc phương tiện công cộng để tránh kẹt xe vào giờ cao điểm.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2511003-ngay-mai-nguoi-ta-lay-chong",
+  "banToChuc": {
+    "ten": "Sân khấu Nghệ thuật Trương Hùng Minh",
+    "thongTin": "Sân khấu Nghệ thuật Trương Hùng Minh được thành lập với mục tiêu lan tỏa giá trị nhân văn, mang đến các tác phẩm kịch nói chất lượng, vừa giải trí vừa truyền cảm hứng cho công chúng.",
+    "logo": "../Images/images/events/ev2511003/ev2511003-logo-btc.jpg"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-20T19:30:00",
+    "ketThuc": "2025-11-20T22:30:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Đêm duy nhất",
+      "batDau": "2025-11-20T19:30:00",
+      "ketThuc": "2025-11-20T22:30:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Hạng VIP (Khu vực Đỏ)",
+      "giaVe": 320000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Vé khu vực tốt nhất (Khu vực Đỏ), gần sân khấu. Không dành cho trẻ dưới 12 tuổi."
+    },
+    {
+      "tenVe": "Hạng Regular (Khu vực Cam/Vàng)",
+      "giaVe": 270000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Vé khu vực giữa (Khu vực Cam/Vàng), tầm nhìn rõ, âm thanh tốt."
+    },
+    {
+      "tenVe": "Vé HSSV (Khu vực Xanh Dương)",
+      "giaVe": 220000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#3B82F6",
+      "thongTinVe": "Vé dành cho Học sinh/Sinh viên (Khu vực Xanh Dương). Cần xuất trình thẻ HSSV khi vào cửa."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2511003/ev2511003-seatmap.png",
+    "mappingMau": {
+      "#EF4444": "Hạng VIP (Khu vực Đỏ)",
+      "#F59E0B": "Hạng Regular (Khu vực Cam/Vàng)",
+      "#3B82F6": "Vé HSSV (Khu vực Xanh Dương)"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Sân khấu Nghệ thuật Trương Hùng Minh",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Quận 10",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2512002",
+  "tenSuKien": "SÂN KHẤU HỒNG VÂN: CĂN PHÒNG CÂM LẶNG",
+  "anhSuKien": "../Images/images/events/ev2512002/ev2512002-poster.jpg",
+  "banner": "../Images/images/events/ev2512002/ev2512002-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 3",
+      "phuong": "Phường 01",
+      "soNha": "843 Điện Biên Phủ (Nhà văn hóa sinh viên), Sân khấu Hồng Vân"
+    }
+  },
+  "theLoai": "Sân khấu & Nghệ thuật",
+  "thongTinSuKien": "<section><h3>Giới thiệu chương trình</h3><p><strong>Căn Phòng Câm Lặng</strong> là một vở kịch tâm lý xã hội đặc sắc của <strong>Sân khấu Hồng Vân</strong>, kể về những bi kịch, mâu thuẫn và bí mật ẩn giấu trong một gia đình quý tộc.</p><h4>Nội dung</h4><ul><li>Nhân vật trung tâm là <strong>Ngọc</strong> – cô gái lớn lên trong sự kiềm kẹp của người cha độc đoán, sống trong một căn nhà đầy những bóng tối của quá khứ.</li><li>Người giúp việc – <strong>Bà Hai</strong>, hy sinh cả cuộc đời để chăm sóc Ngọc, là nhân chứng cho mọi biến cố và nỗi đau của gia đình.</li><li>Câu chuyện đi sâu vào tâm lý con người, nơi <em>sự im lặng</em> trở thành tiếng kêu ám ảnh nhất.</li></ul><h4>Đội ngũ thực hiện</h4><ul><li><strong>Tác giả &amp; Đạo diễn:</strong> NSND Hồng Vân</li><li><strong>Thiết kế sân khấu:</strong> KTS Lệ Nga</li><li><strong>Âm nhạc:</strong> Thanh Hiếu</li><li><strong>Giám đốc sản xuất:</strong> Lệ Xuân</li><li><strong>Diễn viên:</strong> NSƯT Ốc Thanh Vân, Đinh Mạnh Phúc, Hoàng Hải, Khôi Nguyễn, Mỹ Mỹ, Hoàng Khôi, Kim Lệ, Hồng Gấm và dàn diễn viên trẻ của sân khấu Hồng Vân.</li></ul><p><strong>Thời lượng:</strong> Khoảng 150 phút (bao gồm giải lao 10 phút).<br><strong>Ngôn ngữ:</strong> Tiếng Việt.</p><h4>Lưu ý khi tham dự</h4><ul><li>Vé có giá dao động từ <strong>220.000 – 320.000đ</strong> (giá thực tế cao nhất ~390.000đ).</li><li>Sau khi thanh toán, vui lòng <strong>liên hệ Sân khấu Hồng Vân để chọn chỗ ngồi</strong>.</li><li>Không quay phim, chụp ảnh hoặc sử dụng điện thoại trong suốt buổi diễn.</li><li>Vé đã mua <strong>không hoàn/đổi</strong>, trừ trường hợp sự kiện bị hoãn/hủy bởi Ban tổ chức.</li><li>Trẻ em dưới 12 tuổi không được khuyến khích tham dự.</li></ul><h4>Gợi ý di chuyển</h4><ul><li>Sân khấu nằm trong khuôn viên Nhà Văn hóa Sinh viên – 843 Điện Biên Phủ, thuận tiện di chuyển từ trung tâm Quận 1 hoặc Quận Bình Thạnh.</li><li>Có bãi giữ xe tại khu vực cổng chính hoặc gửi xe tại khuôn viên Đại học Kinh tế TP.HCM (cách ~200m). Nên đi xe công nghệ hoặc phương tiện công cộng để tránh kẹt xe.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2512002-can-phong-cam-lang",
+  "banToChuc": {
+    "ten": "CÔNG TY CP SÂN KHẤU VÀ ĐIỆN ẢNH VĂN TUẤN",
+    "thongTin": "Sân khấu Hồng Vân.",
+    "logo": "../Images/images/events/ev2512002/ev2512002-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-12-12T19:30:00",
+    "ketThuc": "2025-12-12T22:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Suất duy nhất",
+      "batDau": "2025-12-12T19:30:00",
+      "ketThuc": "2025-12-12T22:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Hạng VIP",
+      "giaVe": 320000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Vé khu vực tốt nhất (Khu vực Đỏ). Giá vé gần với giá thực tế (390K)."
+    },
+    {
+      "tenVe": "Hạng Regular",
+      "giaVe": 270000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Vé khu vực giữa (Khu vực Cam/Vàng)."
+    },
+    {
+      "tenVe": "Vé HSSV",
+      "giaVe": 220000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#3B82F6",
+      "thongTinVe": "Vé dành cho Học sinh/Sinh viên (Khu vực Xanh Dương). Vui lòng xuất trình giấy tờ khi tham dự."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2510002/ev2510002-seatmap.png",
+    "mappingMau": {
+      "#EF4444": "Hạng VIP",
+      "#F59E0B": "Hạng Regular",
+      "#3B82F6": "Vé HSSV"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "CÔNG TY CP SÂN KHẤU VÀ ĐIỆN ẢNH VĂN TUẤN",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Quận 3",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2511004",
+  "tenSuKien": "[BẾN THÀNH] Đêm nhạc Thùy Dung",
+  "anhSuKien": "../Images/images/events/ev2511004/ev2511004-poster.jpg",
+  "banner": "../Images/images/events/ev2511004/ev2511004-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 1",
+      "phuong": "Bến Nghé",
+      "soNha": "Lầu 3, Nhà hát Bến Thành (6 Mạc Đĩnh Chi)"
+    }
+  },
+  "theLoai": "Sân khấu & Nghệ thuật",
+  "thongTinSuKien": "<section><h3>Giới thiệu chương trình</h3><p><strong>Đêm nhạc Pháp đặc biệt</strong> của ca sĩ <strong>Thùy Dung</strong> được tổ chức tại <strong>Phòng Trà Bến Thành</strong> – không gian sang trọng, ấm cúng và tinh tế bậc nhất giữa trung tâm Quận 1.</p><p>Sự kiện hứa hẹn mang đến những phút giây thư giãn cùng các bản tình ca Pháp kinh điển và những giai điệu trữ tình sâu lắng, được trình bày qua giọng ca ngọt ngào của Thùy Dung.</p><h4>Ghi chú về phụ thu</h4><ul><li>Chỗ ngồi được sắp xếp <strong>theo thứ tự thanh toán</strong>. Một số vị trí trung tâm có thể bị vướng cột nhẹ.</li><li><strong>Phòng trà Bến Thành</strong> có phục vụ F&amp;B – vui lòng không mang đồ ăn, thức uống từ bên ngoài vào.</li><li>Nếu khách không gọi nước tại phòng trà, sẽ tính <strong>phụ thu 80.000 VNĐ/người</strong>.</li><li>Phụ thu không bao gồm nước uống.</li><li>Vui lòng tuân thủ quy định của Ban tổ chức để đảm bảo trải nghiệm chung.</li></ul><h4>Thông tin thêm</h4><ul><li>Sự kiện diễn ra <strong>1 đêm duy nhất</strong> tại Lầu 3, Nhà hát Bến Thành.</li><li>Không gian giới hạn số lượng chỗ ngồi – khuyến nghị đặt vé sớm để giữ vị trí đẹp.</li><li>Đến trước giờ diễn ít nhất 15 phút để ổn định chỗ ngồi.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2511004-dem-nhac-thuy-dung",
+  "banToChuc": {
+    "ten": "Phòng Trà Bến Thành",
+    "thongTin": "Phòng Trà Bến Thành – điểm hẹn của những đêm nhạc chất lượng cao, kết hợp giữa âm nhạc, không gian và trải nghiệm thưởng thức sang trọng.",
+    "logo": "../Images/images/events/ev2511004/ev2511004-logo-btc.jpg"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-12T20:00:00",
+    "ketThuc": "2025-11-12T22:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Đêm duy nhất",
+      "batDau": "2025-11-12T20:00:00",
+      "ketThuc": "2025-11-12T22:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Phụ thu Bến Thành (VIP)",
+      "giaVe": 1000000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 50,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực Bến Thành (Sofa/Hàng 3), phụ thu cao nhất, vị trí trung tâm gần sân khấu."
+    },
+    {
+      "tenVe": "Phụ thu Tân Định",
+      "giaVe": 800000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 80,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực Tân Định (Ghế ngồi), tầm nhìn tốt, phụ thu trung bình."
+    },
+    {
+      "tenVe": "Phụ thu An Đông",
+      "giaVe": 600000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#3B82F6",
+      "thongTinVe": "Khu vực An Đông (Ghế ngồi), tầm nhìn thoáng, phụ thu thấp hơn."
+    },
+    {
+      "tenVe": "Phụ thu Bình Tây 1",
+      "giaVe": 400000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#10B981",
+      "thongTinVe": "Khu vực Bình Tây 1 (Ghế ngồi), phụ thu thấp nhất, phù hợp đại đa số khách tham dự."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2511004/ev2511004-seatmap.jpg",
+    "mappingMau": {
+      "#EF4444": "BẾN THÀNH (VIP)",
+      "#F59E0B": "TÂN ĐỊNH",
+      "#3B82F6": "AN ĐÔNG",
+      "#10B981": "BÌNH TÂY 1"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Phòng Trà Bến Thành",
+    "soTaiKhoan": "123456789",
+    "nganHang": "VPBank",
+    "chiNhanh": "Quận 1",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2510003",
+  "tenSuKien": "SUPERFEST 2025 - CONCERT MÙA HÈ RỰC SÁNG",
+  "anhSuKien": "../Images/images/events/ev2510003/ev2510003-poster.jpg",
+  "banner": "../Images/images/events/ev2510003/ev2510003-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "Hà Nội",
+      "quan": "Đông Anh",
+      "phuong": "Cổ Loa",
+      "soNha": "VinPalace - Sân Bạc - Trung tâm Triển lãm Việt Nam (VEC)"
+    }
+  },
+  "theLoai": "Sân khấu & Nghệ thuật",
+  "thongTinSuKien": "<section><h3>Giới thiệu chương trình</h3><p><strong>SUPERFEST 2025 – CONCERT MÙA HÈ RỰC SÁNG</strong> trở lại Hà Nội với đại tiệc âm nhạc quy tụ hàng loạt nghệ sĩ được yêu thích, hứa hẹn những màn trình diễn bùng nổ cảm xúc. Không chỉ là concert, đây là hành trình đánh thức thanh xuân – nơi bạn cháy hết mình và tạo nên những kỷ niệm rực rỡ.</p><h4>Nghệ sĩ tham gia</h4><p>Băng Kiều, Quốc Thiên, Thanh Duy, Hà Lê, Đinh Hương, SOOBIN, Rhymastic, Cường Seven, Jun Phạm, Bùi Công Nam, BB Trần, MC Anh Tuấn, Minh Tuyết, Phạm Quỳnh Anh, Minh Hằng, Tóc Tiên, Bùi Lan Hương, Dương Hoàng Yến, Hoàng Yến Chibi, Đông Anh Quỳnh, MISTRY.</p><h4>Lưu ý</h4><ul><li>Trẻ em dưới 13 tuổi phải mua vé và có người bảo hộ đi cùng; người bảo hộ cần có vé riêng.</li><li>BTC không khuyến khích trẻ em dưới 5 tuổi và phụ nữ mang thai tham gia.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2510003-superfest-2025",
+  "banToChuc": {
+    "ten": "Vi21 Media",
+    "thongTin": "Công ty Cổ phần Sự kiện và Truyền thông Việt 21 (Vi21 Media).",
+    "logo": "../Images/images/events/ev2510003/ev2510003-logo-btc.jpg"
+  },
+  "thoiGian": {
+    "batDau": "2025-10-17T18:30:00",
+    "ketThuc": "2025-10-17T23:30:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "DAY 1",
+      "batDau": "2025-10-17T18:30:00",
+      "ketThuc": "2025-10-17T23:30:00"
+    },
+    {
+      "ten": "DAY 2",
+      "batDau": "2025-10-18T18:30:00",
+      "ketThuc": "2025-10-18T23:30:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "CHUNG TAY 1 (Khu vực xa)",
+      "giaVe": 700000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#1E3A8A",
+      "thongTinVe": "Khu vực xa sân khấu, tầm nhìn thoáng (Giá vé tham khảo: 800.000 ₫)."
+    },
+    {
+      "tenVe": "CHUNG TAY 2 (Khu vực xa)",
+      "giaVe": 700000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#1E3A8A",
+      "thongTinVe": "Khu vực xa sân khấu, tầm nhìn thoáng."
+    },
+    {
+      "tenVe": "MẠNH MẼ 1 (Khu vực giữa)",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực trung tâm bên trái sân khấu."
+    },
+    {
+      "tenVe": "MẠNH MẼ 2 (Khu vực giữa)",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực trung tâm bên phải sân khấu."
+    },
+    {
+      "tenVe": "ĐOÀN KẾT 1 (Khu vực VIP)",
+      "giaVe": 1800000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực VIP, chính giữa, gần sân khấu nhất."
+    },
+    {
+      "tenVe": "ĐOÀN KẾT 2 (Khu vực VIP)",
+      "giaVe": 1800000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực VIP, chính giữa, gần sân khấu nhất."
+    },
+    {
+      "tenVe": "ĐỒNG LÒNG 1 (Khu vực trên)",
+      "giaVe": 900000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#8B5CF6",
+      "thongTinVe": "Khu vực phía trên trái sân khấu, tầm nhìn rộng."
+    },
+    {
+      "tenVe": "ĐỒNG LÒNG 2 (Khu vực trên)",
+      "giaVe": 900000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#8B5CF6",
+      "thongTinVe": "Khu vực phía trên phải sân khấu, tầm nhìn rộng."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2510003/ev2510003-seatmap.png",
+    "mappingMau": {
+      "#8B5CF6": "ĐỒNG LÒNG",
+      "#F59E0B": "MẠNH MẼ",
+      "#EF4444": "ĐOÀN KẾT",
+      "#1E3A8A": "CHUNG TAY"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Vi21 Media",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Đông Anh, Hà Nội",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty Cổ phần",
+      "hoTen": "CÔNG TY CỔ PHẦN SỰ KIỆN VÀ TRUYỀN THÔNG VIỆT 21 (VI21 MEDIA)",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2511005",
+  "tenSuKien": "RHYMASTIC's 1st FAN MEETING IN HCMC: RHYMeeting",
+  "anhSuKien": "../Images/images/events/ev2511005/ev2511005-poster.jpg",
+  "banner": "../Images/images/events/ev2511005/ev2511005-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 1",
+      "phuong": "Bến Nghé",
+      "soNha": "Số 6 Mạc Đĩnh Chi, Nhà hát Bến Thành"
+    }
+  },
+  "theLoai": "Sân khấu & Nghệ thuật",
+  "thongTinSuKien": "<section><h3>Giới thiệu chương trình</h3><p><strong>RHYMeeting</strong> là buổi Fan Meeting đầu tiên của <strong>Rhymastic</strong> tại TP.HCM, mang đến không gian gặp gỡ gần gũi, giao lưu và thưởng thức các tiết mục biểu diễn giàu năng lượng.</p><h4>Đơn vị tổ chức</h4><p><strong>SS LABEL</strong> (thuộc SpaceSpeakers Group) – hãng thu âm chuyên nghiệp, sản xuất và phát hành âm nhạc, quản lý nghệ sĩ.</p><h4>Lưu ý</h4><ul><li>Sắp xếp chỗ ngồi theo quy định của BTC tại Nhà hát Bến Thành.</li><li>Vui lòng tuân thủ nội quy địa điểm tổ chức.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2511005-rhymeeting-hcmc",
+  "banToChuc": {
+    "ten": "SS LABEL",
+    "thongTin": "SpaceSpeakers Label (SSL) là hãng thu âm chuyên nghiệp về thể loại pop, RNB, rap/hip hop, trực thuộc SpaceSpeakers Groups.",
+    "logo": "../Images/images/events/ev2511005/ev2511005-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-19T15:00:00",
+    "ketThuc": "2025-11-19T21:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "FAN MEETING – SESSION 1",
+      "batDau": "2025-11-19T15:00:00",
+      "ketThuc": "2025-11-19T18:00:00"
+    },
+    {
+      "ten": "FAN MEETING – SESSION 2",
+      "batDau": "2025-11-19T19:00:00",
+      "ketThuc": "2025-11-19T21:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "RHYMER 1",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực RHYMER gần sân khấu nhất, chỗ ngồi tốt nhất."
+    },
+    {
+      "tenVe": "RHYMER 2",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực RHYMER gần sân khấu nhất, chỗ ngồi tốt nhất."
+    },
+    {
+      "tenVe": "RHYMER 3",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực RHYMER gần sân khấu nhất, chỗ ngồi tốt nhất."
+    },
+    {
+      "tenVe": "RHYMER 4",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực RHYMER gần sân khấu nhất, chỗ ngồi tốt nhất."
+    },
+    {
+      "tenVe": "RHYM NGHĨ 1 - 6",
+      "giaVe": 900000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 300,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực RHYM NGHĨ, tầm nhìn trung bình."
+    },
+    {
+      "tenVe": "RHYM LÀM 1 - 4",
+      "giaVe": 750000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#9CA3AF",
+      "thongTinVe": "Khu vực RHYM LÀM, tầm nhìn xa hơn."
+    },
+    {
+      "tenVe": "RHYM CHƠI 1 - 4",
+      "giaVe": 600000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#3B82F6",
+      "thongTinVe": "Khu vực RHYM CHƠI, tầm nhìn xa nhất."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2511005/ev2511005-seatmap.jpg",
+    "mappingMau": {
+      "#EF4444": "RHYMER",
+      "#F59E0B": "RHYM NGHĨ",
+      "#9CA3AF": "RHYM LÀM",
+      "#3B82F6": "RHYM CHƠI"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "SS LABEL",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Quận 1",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2511006",
+  "tenSuKien": "[FLOWER 1969's] WORKSHOP SOLID PERFUME - NƯỚC HOA KHÔ",
+  "anhSuKien": "../Images/images/events/ev2511006/ev2511006-poster.jpg",
+  "banner": "../Images/images/events/ev2511006/ev2511006-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Tân Bình",
+      "phuong": "Phường 05",
+      "soNha": "The Seat Cafe - 1355/7 Hoàng Sa"
+    }
+  },
+  "theLoai": "Khác",
+  "thongTinSuKien": "<section><h3>Giới thiệu Workshop</h3><p><strong>FLOWER 1969's</strong> mang đến trải nghiệm đặc biệt – <strong>Workshop Nước Hoa Khô (Solid Perfume)</strong>, nơi bạn có thể tự tay pha chế, sáng tạo mùi hương mang dấu ấn cá nhân, hoàn toàn từ nguyên liệu thiên nhiên.</p><h4>Nội dung Workshop</h4><ul><li>Học viên được hướng dẫn từng bước để tạo nên 3 hũ nước hoa khô (mỗi hũ 10gr).</li><li>Học phí bao gồm toàn bộ nguyên vật liệu, dụng cụ, hũ đựng, hộp và túi giấy mang về.</li><li>Có giảng viên hướng dẫn tận tình, hỗ trợ lựa chọn hương liệu phù hợp.</li></ul><h4>Thông tin bằng tiếng Anh</h4><p><em>Tuition includes 1 portion of water, all tools and materials to create 3 jars of solid perfume (10gr each), with box and paper bag to take home.</em></p><h4>Lưu ý &amp; Chính sách</h4><ul><li>Các nguyên liệu được chiết xuất 100% từ thiên nhiên, an toàn cho da và sức khỏe.</li><li>Vé không hoàn/đổi trừ khi có thông báo hoãn từ Ban tổ chức.</li><li>Trong trường hợp bất khả kháng, quyết định hoàn tiền/đổi vé thuộc quyền của Nhà tổ chức.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2511006-workshop-solid-perfume",
+  "banToChuc": {
+    "ten": "Flower 1969's",
+    "thongTin": "Thương hiệu được tạo ra với niềm đam mê bất tận về Hương Thuần Tự Nhiên.",
+    "logo": "../Images/images/events/ev2511006/ev2511006-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-08T10:00:00",
+    "ketThuc": "2025-11-08T12:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Workshop duy nhất",
+      "batDau": "2025-11-08T10:00:00",
+      "ketThuc": "2025-11-08T12:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Vé Thường",
+      "giaVe": 310000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 50,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#FCD34D",
+      "thongTinVe": "Vé tiêu chuẩn cho 1 người tham gia Workshop Nước Hoa Khô."
+    },
+    {
+      "tenVe": "Vé Ưu Đãi",
+      "giaVe": 279000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#A7F3D0",
+      "thongTinVe": "Vé ưu đãi áp dụng cho nhóm khách đăng ký từ 4 slot trở lên – giảm 10% học phí."
+    }
+  ],
+  "seatmap": {
+    "anh": null,
+    "mappingMau": {
+      "#FCD34D": "Vé Thường",
+      "#A7F3D0": "Vé Ưu Đãi"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Flower 1969's",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Quận Tân Bình",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2511007",
+  "tenSuKien": "Workshop vẽ bằng màu acrylic, màu neon - LizAn Lab",
+  "anhSuKien": "../Images/images/events/ev2511007/ev2511007-poster.jpg",
+  "banner": "../Images/images/events/ev2511007/ev2511007-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "Hà Nội",
+      "quan": "Hà Đông",
+      "phuong": "Mộ Lao",
+      "soNha": "Tại Xưởng Cafe, 108 Trần Phú"
+    }
+  },
+  "theLoai": "Khác",
+  "thongTinSuKien": "<section><h3>Giới thiệu sự kiện</h3><ul><li>Tỏa sáng cá tính – sáng tạo không giới hạn.</li><li>Biến ý tưởng thành tác phẩm mang dấu ấn riêng.</li><li>Mở rộng cơ hội kinh doanh sáng tạo – có thể bán tác phẩm cùng LizAn Lab.</li></ul><h4>Chi tiết Workshop</h4><ul><li><strong>LizAn Lab</strong>: Workshop vẽ sáng tạo bằng <strong>màu acrylic</strong> và <strong>màu neon</strong>.</li><li><strong>Chất liệu:</strong> Canvas, giấy bồi, màu acrylic, màu neon.</li><li><strong>Lịch vận hành:</strong> Sáng Thứ 7, Chủ nhật hằng tuần. <strong>Thời lượng:</strong> 2 giờ.</li><li><strong>Ngôn ngữ hướng dẫn:</strong> Tiếng Việt / Tiếng Anh.</li><li><strong>Trải nghiệm kèm theo:</strong> 01 phần trà/cà phê; cung cấp đầy đủ dụng cụ &amp; nguyên vật liệu.</li><li><strong>Thành phẩm:</strong> Tác phẩm hoàn thiện kèm túi đựng.</li><li><strong>Ưu đãi:</strong> Vé trẻ em đi kèm được giảm nhẹ.</li><li><strong>Gợi ý di chuyển:</strong> Có thể đi tàu điện từ trung tâm đến Ga Văn Quán, đi bộ ngắn đến địa điểm.</li></ul><h4>Lưu ý &amp; Chính sách</h4><ul><li>Vui lòng đến trước giờ học 10–15 phút để ổn định chỗ.</li><li>Vé không hoàn/đổi trừ khi có thông báo hoãn/hủy từ Ban tổ chức.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2511007-lizan-lab-workshop-acrylic-neon",
+  "banToChuc": {
+    "ten": "LizAn Lab",
+    "thongTin": "LizAn Lab – Creative Workshop Space, không gian sáng tạo để bạn tự tay làm nên sản phẩm độc đáo.",
+    "logo": "../Images/images/events/ev2511007/ev2511007-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-18T18:00:00",
+    "ketThuc": "2025-12-31T21:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Suất 1 (Tối Thứ Ba)",
+      "batDau": "2025-11-18T19:00:00",
+      "ketThuc": "2025-11-18T21:00:00"
+    },
+    {
+      "ten": "Suất 2 (Sáng Thứ Bảy)",
+      "batDau": "2025-11-22T10:00:00",
+      "ketThuc": "2025-11-22T12:00:00"
+    },
+    {
+      "ten": "Suất 3 (Chiều Chủ Nhật)",
+      "batDau": "2025-12-07T15:00:00",
+      "ketThuc": "2025-12-07T17:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Vé Workshop Acrylic & Neon (1 slot)",
+      "giaVe": 279000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#3B82F6",
+      "thongTinVe": "Bao gồm toàn bộ vật liệu, dụng cụ và 1 phần nước."
+    },
+    {
+      "tenVe": "Vé Workshop Acrylic & Neon (Ưu đãi trẻ em)",
+      "giaVe": 250000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 50,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#A7F3D0",
+      "thongTinVe": "Áp dụng cho trẻ em đi kèm, quyền lợi tương tự vé thường."
+    }
+  ],
+  "seatmap": {
+    "anh": null,
+    "mappingMau": {
+      "#3B82F6": "Vé Workshop (1 slot)",
+      "#A7F3D0": "Vé Ưu đãi trẻ em"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "LizAn Lab",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Hà Đông",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2511005",
+  "tenSuKien": "RHYMASTIC's 1st FAN MEETING IN HCMC: RHYMeeting",
+  "anhSuKien": "../Images/images/events/ev2511005/ev2511005-poster.jpg",
+  "banner": "../Images/images/events/ev2511005/ev2511005-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 1",
+      "phuong": "Bến Nghé",
+      "soNha": "Số 6 Mạc Đĩnh Chi, Nhà hát Bến Thành"
+    }
+  },
+  "theLoai": "Sân khấu & Nghệ thuật",
+  "thongTinSuKien": "<section><h3>Giới thiệu chương trình</h3><p><strong>RHYMeeting</strong> là buổi Fan Meeting đầu tiên của <strong>Rhymastic</strong> tại TP.HCM, mang đến không gian gặp gỡ gần gũi, giao lưu và thưởng thức các tiết mục biểu diễn giàu năng lượng.</p><h4>Đơn vị tổ chức</h4><p><strong>SS LABEL</strong> (thuộc SpaceSpeakers Group) – hãng thu âm chuyên nghiệp, sản xuất và phát hành âm nhạc, quản lý nghệ sĩ.</p><h4>Lưu ý</h4><ul><li>Sắp xếp chỗ ngồi theo quy định của BTC tại Nhà hát Bến Thành.</li><li>Vui lòng tuân thủ nội quy địa điểm tổ chức.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2511005-rhymeeting-hcmc",
+  "banToChuc": {
+    "ten": "SS LABEL",
+    "thongTin": "SpaceSpeakers Label (SSL) là hãng thu âm chuyên nghiệp về thể loại pop, RNB, rap/hip hop, trực thuộc SpaceSpeakers Groups.",
+    "logo": "../Images/images/events/ev2511005/ev2511005-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-19T19:00:00",
+    "ketThuc": "2025-11-19T21:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Suất duy nhất",
+      "batDau": "2025-11-19T19:00:00",
+      "ketThuc": "2025-11-19T21:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "RHYMER 1",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực RHYMER gần sân khấu nhất, chỗ ngồi tốt nhất."
+    },
+    {
+      "tenVe": "RHYMER 2",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực RHYMER gần sân khấu nhất, chỗ ngồi tốt nhất."
+    },
+    {
+      "tenVe": "RHYMER 3",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực RHYMER gần sân khấu nhất, chỗ ngồi tốt nhất."
+    },
+    {
+      "tenVe": "RHYMER 4",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực RHYMER gần sân khấu nhất, chỗ ngồi tốt nhất."
+    },
+    {
+      "tenVe": "RHYM NGHĨ 1 - 6",
+      "giaVe": 900000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 300,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực RHYM NGHĨ, tầm nhìn trung bình."
+    },
+    {
+      "tenVe": "RHYM LÀM 1 - 4",
+      "giaVe": 750000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#9CA3AF",
+      "thongTinVe": "Khu vực RHYM LÀM, tầm nhìn xa hơn."
+    },
+    {
+      "tenVe": "RHYM CHƠI 1 - 4",
+      "giaVe": 600000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#3B82F6",
+      "thongTinVe": "Khu vực RHYM CHƠI, tầm nhìn xa nhất."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2511005/ev2511005-seatmap.jpg",
+    "mappingMau": {
+      "#EF4444": "RHYMER",
+      "#F59E0B": "RHYM NGHĨ",
+      "#9CA3AF": "RHYM LÀM",
+      "#3B82F6": "RHYM CHƠI"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "SS LABEL",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Quận 1",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2511009",
+  "tenSuKien": "3 BÍ QUYẾT VÀNG ĐỂ MẸ CÓ TẤT CẢ... TRỪ VẤT VẢ",
+  "anhSuKien": "../Images/images/events/ev2511009/ev2511009-poster.jpg",
+  "banner": "../Images/images/events/ev2511009/ev2511009-banner.png",
+  "diaChi": {
+    "loai": "online",
+    "diaDiem": {
+      "tinh": "Online",
+      "quan": "Zoom",
+      "phuong": "Webinar",
+      "soNha": "Link sẽ được gửi qua email"
+    }
+  },
+  "theLoai": "Khác",
+  "thongTinSuKien": "Khám phá 3 bí quyết vàng để có trọn vẹn hạnh phúc trong sự nghiệp & cuộc sống mà không phải đánh đổi hay kiệt sức. Hội thảo dành cho các mẹ khao khát: phát triển sự nghiệp đầy cảm hứng và ý nghĩa, xây dựng hôn nhân bền chặt đồng thời nuôi dạy con trong an yên, điềm tĩnh.\n\n**Bạn có thể học được gì:**\n* Khám phá 3 bí quyết để hạnh phúc trong sự nghiệp & cuộc sống mà không phải đánh đổi, kiệt sức, ôm đồm hay đánh đối.\n* Nhận công cụ đơn giản giúp mẹ có trọng tâm & tự do.\n* Tìm hiểu chương trình \"FLOW YOU\" - là bạn, hạnh phúc đích thực.\n\n**Lưu ý:**\n* Link Zoom sẽ được gửi qua email tới những ai đăng ký 24 giờ trước sự kiện.\n* Vé tham gia sự kiện không được hoàn lại dưới bất kỳ hình thức và điều kiện nào.\n* Người đăng ký tham dự sẽ được gửi recording trong vòng 24 giờ sau sự kiện, với thời hạn xem tới ngày 27/10.\n\n**Về Coach Lê Mai Anh:**\nLê Mai Anh là nhà sáng lập Flow Space, Career Happiness Coach với sứ mệnh đồng hành cùng những người phụ nữ (đặc biệt là những người mẹ) đang loay hoay, bế tắc trong việc xác định định hướng cho sự nghiệp và cuộc sống.",
+  "linkSuKien": "https://tannivan.vn/event/ev2511009-3-bi-quyet-vang-de-me-co-tat-ca-tru-vat-va",
+  "banToChuc": {
+    "ten": "Flow Space",
+    "thongTin": "Flow Space is a coaching service company with mission to inspire and empower women to discover and live in their FLOW (where life purpose- natural strengths- true passions- core values align) so they can create a life of fulfillment, meaning, and harmony.",
+    "logo": "../Images/images/events/ev2511009/ev2511009-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-11-24T12:00:00",
+    "ketThuc": "2025-11-24T14:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Webinar duy nhất",
+      "batDau": "2025-11-24T12:00:00",
+      "ketThuc": "2025-11-24T14:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Vé tham dự Webinar (Online)",
+      "giaVe": 200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": null,
+      "thongTinVe": "Tham gia Webinar trực tuyến qua Zoom. Bao gồm ghi hình sự kiện (recording)."
+    }
+  ],
+  "seatmap": {
+    "anh": null,
+    "mappingMau": {}
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Flow Space",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Online",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2512003",
+  "tenSuKien": "[TP.HCM] NHỮNG THÀNH PHỐ MƠ MÀNG YEAR END 2025 - WONDERTOPÍA",
+  "anhSuKien": "../Images/images/events/ev2512003/ev2512003-poster.jpg",
+  "banner": "../Images/images/events/ev2512003/ev2512003-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 7",
+      "phuong": "Tân Phú",
+      "soNha": "SECC, 799 Nguyễn Văn Linh (ngoài trời)"
+    }
+  },
+  "theLoai": "Âm nhạc",
+  "thongTinSuKien": "Chào mừng cư dân đến với **NTPMMM Year End 2025 - Wondertopia**, đêm nhạc đầy cảm xúc. Tại đây, từng giai điệu sẽ dẫn lối, đưa bạn đến những nơi tuyệt vời nhất trên thế giới, nơi mọi người cùng nhau hòa nhịp trong một màn trình diễn duy nhất.\n\n**Hành trình khép lại năm 2025** sẽ trở thành một đại tiệc của âm nhạc, sáng tạo và bất ngờ. Wondertopia không chỉ là một show diễn – mà là không gian nơi chúng ta tìm thấy sự đồng điệu, truyền cảm hứng cho một khởi đầu mới rực rỡ.\n\n**Quy định chung:** Chương trình dành cho khán giả trên 16 tuổi. Khán giả từ 10-15 tuổi tham gia cần có người giám hộ đi kèm (người giám hộ phải từ 18 tuổi trở lên), người giám hộ không mất vé và hoàn toàn chịu trách nhiệm nếu có bất kỳ sự cố nào xảy ra. BTC có quyền từ chối khán giả vi phạm quy định.\n\n**Lưu ý về vé:** Vé chỉ dành cho một khán giả tham dự, không kèm trẻ em và trẻ vị thành niên. Người giám hộ đi kèm khán giả vị thành niên phải mua vé để tham dự. Vé không được đổi hoặc hoàn trả dưới mọi hình thức.",
+  "linkSuKien": "https://tannivan.vn/event/ev2512003-ntpmmm-wondertopia-hcmc",
+  "banToChuc": {
+    "ten": "Những Thành Phố Mơ Màng",
+    "thongTin": "Là chuỗi sự kiện âm nhạc độc đáo tại Việt Nam, nơi hội tụ nhiều nghệ sĩ với phong cách đa dạng. Tạo nên không gian âm nhạc đầy màu sắc, kết nối sâu sắc giữa nghệ sĩ và khán giả.",
+    "logo": "../Images/images/events/ev2512003/ev2512003-logo-btc.jpg"
+  },
+  "thoiGian": {
+    "batDau": "2025-12-07T16:00:00",
+    "ketThuc": "2025-12-07T22:30:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "ĐÊM DUY NHẤT",
+      "batDau": "2025-12-07T16:00:00",
+      "ketThuc": "2025-12-07T22:30:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Regular Ticket",
+      "giaVe": 755000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 500,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 10,
+      "mauKhuVuc": null,
+      "thongTinVe": "Vé thường, bao gồm Lightstick NTPMMM & quà tặng."
+    },
+    {
+      "tenVe": "Combo 1 Regular Ticket + 1 Lightstick NTPMMM (-2%)",
+      "giaVe": 1081920,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 10,
+      "mauKhuVuc": null,
+      "thongTinVe": "Combo vé thường kèm 1 Lightstick NTPMMM (sẽ được giao hàng)."
+    },
+    {
+      "tenVe": "Combo 4 Regular Ticket (-5%)",
+      "giaVe": 717250,
+      "trangThai": "Hết vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": null,
+      "thongTinVe": "Vé nhóm 4 người, ưu đãi 5%. Đã hết vé."
+    },
+    {
+      "tenVe": "Combo 10 Regular Ticket (-15%)",
+      "giaVe": 641750,
+      "trangThai": "Hết vé",
+      "tongSoLuong": 50,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 10,
+      "mauKhuVuc": null,
+      "thongTinVe": "Vé nhóm 10 người, ưu đãi 15%. Đã hết vé."
+    },
+    {
+      "tenVe": "Early Bird Ticket",
+      "giaVe": 620000,
+      "trangThai": "Hết vé",
+      "tongSoLuong": 300,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 2,
+      "mauKhuVuc": null,
+      "thongTinVe": "Vé ưu đãi sớm. Đã hết vé."
+    }
+  ],
+  "seatmap": {
+    "anh": null,
+    "mappingMau": {}
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Những Thành Phố Mơ Màng",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Quận 7",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2512004",
+  "tenSuKien": "[CONCERT] SOOBIN HOÀNG SƠN: THE FIRST SIGHT - IN HANOI",
+  "anhSuKien": "../Images/images/events/ev2512004/ev2512004-poster.jpg",
+  "banner": "../Images/images/events/ev2512004/ev2512004-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "Hà Nội",
+      "quan": "Nam Từ Liêm",
+      "phuong": "Mỹ Đình",
+      "soNha": "Cung Thể thao Quần Ngựa, Số 3 Lê Đức Thọ"
+    }
+  },
+  "theLoai": "Âm nhạc",
+  "thongTinSuKien": "Đón chờ Concert cá nhân đầu tiên của **Soobin Hoàng Sơn - The First Sight** tại Hà Nội vào dịp cuối năm. Đây là đêm nhạc đặc biệt, nơi Soobin sẽ trình diễn những bản hit đã làm nên tên tuổi, đồng thời giới thiệu các ca khúc mới đầy bất ngờ.\n\n**Chủ đề:** The First Sight - Cái nhìn đầu tiên. Buổi hòa nhạc hứa hẹn một không gian âm nhạc lãng mạn, nơi khán giả có thể cùng chia sẻ những rung cảm đầu tiên.\n\n**Khán giả:** Chương trình dành cho khán giả từ 16 tuổi trở lên. Trẻ em dưới 10 tuổi không được vào cửa. Khán giả từ 10-15 tuổi phải có người giám hộ đi kèm. Vé không được đổi hoặc hoàn trả.\n\n**Quyền lợi vé V.I.P:** Vé **Shine Your Light** (khu vực VIP) bao gồm photo card độc quyền, bộ quà tặng giới hạn, và ưu tiên vào cửa.\n\n",
+  "linkSuKien": "https://tannivan.vn/event/ev2512004-soobin-the-first-sight-hanoi",
+  "banToChuc": {
+    "ten": "Yêu Music x TNA Entertainment",
+    "thongTin": "Đồng tổ chức bởi Yêu Music và TNA Entertainment.",
+    "logo": "../Images/images/events/ev2512004/ev2512004-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-12-25T19:30:00",
+    "ketThuc": "2025-12-25T22:30:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "ĐÊM DUY NHẤT",
+      "batDau": "2025-12-25T19:30:00",
+      "ketThuc": "2025-12-25T22:30:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "The First Sight",
+      "giaVe": 1000000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#1E3A8A",
+      "thongTinVe": "Khu vực xa sân khấu."
+    },
+    {
+      "tenVe": "Lalala",
+      "giaVe": 1500000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực trung tâm bên trái sân khấu."
+    },
+    {
+      "tenVe": "Shine Your Light",
+      "giaVe": 3500000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực V.I.P, chính giữa, gần sân khấu nhất. Bao gồm quà tặng và ưu tiên vào cửa."
+    },
+    {
+      "tenVe": "Daydreams",
+      "giaVe": 2000000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#8B5CF6",
+      "thongTinVe": "Khu vực phía trên trái sân khấu, tầm nhìn rộng."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2512004/ev2512004-seatmap.png",
+    "mappingMau": {
+      "#EF4444": "Shine Your Light",
+      "#F59E0B": "Lalala",
+      "#1E3A8A": "The First Sight",
+      "#8B5CF6": "Daydreams"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Yêu Music x TNA Entertainment",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Hà Nội",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2512005",
+  "tenSuKien": "Lễ hội ĐẢO HOA HẬU - MISS ISLAND FESTIVAL",
+  "anhSuKien": "../Images/images/events/ev2512005/ev2512005-poster.jpg",
+  "banner": "../Images/images/events/ev2512005/ev2512005-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "Quảng Nam",
+      "quan": "Hội An",
+      "phuong": "Đảo Ký ức",
+      "soNha": "Công viên Văn hóa Ấn Tượng Hội An"
+    }
+  },
+  "theLoai": "Văn hóa - Lịch sử",
+  "thongTinSuKien": "Đảo Hoa Hậu - Miss Island là một sự kiện lễ hội văn hóa độc đáo, nơi hội tụ sắc đẹp, nghệ thuật và di sản. Sự kiện được tổ chức tại Công viên Văn hóa Ấn Tượng Hội An, mang đến một không gian đậm chất Việt Nam và trải nghiệm lễ hội đa dạng.\n\n**Hoạt động chính:**\n* **Show Tinh Hoa Đạo Học:** Các buổi biểu diễn nghệ thuật kết hợp lịch sử và văn hóa.\n* **Khu Ẩm Thực và Mua Sắm:** Trải nghiệm ẩm thực địa phương và các gian hàng thủ công.\n* **Đêm Chung Kết Hoa Hậu:** Buổi trình diễn sắc đẹp chính (có thể cần vé riêng/nâng cấp).\n* **Sử đá Lưu Danh:** Khu vực trưng bày và tương tác lịch sử.\n\n**Lưu ý:** Vé chỉ áp dụng cho người lớn (trên 1m4). Trẻ em có thể cần vé riêng.",
+  "linkSuKien": "https://tannivan.vn/event/ev2512005-dao-hoa-hau-miss-island-festival",
+  "banToChuc": {
+    "ten": "Đảo Ký Ức Hội An",
+    "thongTin": "Đơn vị tổ chức các chương trình biểu diễn nghệ thuật và văn hóa quy mô lớn tại Hội An.",
+    "logo": "../Images/images/events/ev2512005/ev2512005-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-12-28T10:00:00",
+    "ketThuc": "2025-12-30T22:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "Lễ hội duy nhất",
+      "batDau": "2025-12-28T10:00:00",
+      "ketThuc": "2025-12-30T22:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "Vé vào cổng (Người lớn)",
+      "giaVe": 150000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 1000,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 10,
+      "mauKhuVuc": null,
+      "thongTinVe": "Vé vào cửa Lễ hội, bao gồm tham quan và các hoạt động chung."
+    },
+    {
+      "tenVe": "Vé vào cổng (Trẻ em)",
+      "giaVe": 75000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 500,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": null,
+      "thongTinVe": "Áp dụng cho trẻ em cao từ 1m đến 1m4."
+    },
+    {
+      "tenVe": "Vé Trải nghiệm COMBO 2 Show",
+      "giaVe": 250000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 300,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": null,
+      "thongTinVe": "Bao gồm vé vào cổng và xem thêm 2 show đặc biệt (Tinh hoa đạo học + Sử đá lưu danh)."
+    }
+  ],
+  "seatmap": {
+    "anh": null,
+    "mappingMau": {}
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Đảo Ký Ức Hội An",
+    "soTaiKhoan": "123456789",
+    "nganHang": "Vietcombank",
+    "chiNhanh": "Quảng Nam",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2512006",
+  "tenSuKien": "[CONCERT] CHỊ ĐẸP ĐẠP GIÓ RẼ SÓNG 2025 - FINAL STAGE",
+  "anhSuKien": "../Images/images/events/ev2512006/ev2512006-poster.jpg",
+  "banner": "../Images/images/events/ev2512006/ev2512006-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 2",
+      "phuong": "Thủ Thiêm",
+      "soNha": "The Global City (Địa điểm tổ chức chung)"
+    }
+  },
+  "theLoai": "Âm nhạc",
+  "thongTinSuKien": "../images/events/ev2512006/ev2512006-info.png",
+  "linkSuKien": "https://tannivan.vn/event/ev2512006-chi-dep-dap-gio-final-stage",
+  "banToChuc": {
+    "ten": "YEAHTV x VTV Entertainment x TGB Media",
+    "thongTin": "Đêm Chung kết của chương trình được sản xuất bởi YEAHTV (Yeah1 Group) và VTV Entertainment. Sự kiện diễn ra vào đêm Giao thừa.",
+    "logo": "../Images/images/events/ev2512006/ev2512006-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-12-31T20:00:00",
+    "ketThuc": "2026-01-01T00:30:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "FINAL STAGE - ĐÊM GIAO THỪA",
+      "batDau": "2025-12-31T20:00:00",
+      "ketThuc": "2025-12-31T23:59:00"
+    },
+    {
+      "ten": "AFTER PARTY - WELCOME 2026",
+      "batDau": "2026-01-01T00:00:00",
+      "ketThuc": "2026-01-01T00:30:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "SÓNG 1 (VIP)",
+      "giaVe": 4800000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 80,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực VIP, gần sân khấu, có quyền lợi đặc biệt (Tương đương VŨ ĐIỆU của Anh Trai)."
+    },
+    {
+      "tenVe": "SÓNG 2 (PLATINUM)",
+      "giaVe": 3500000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực ghế ngồi tốt, tầm nhìn rõ (Tương đương MẠNH MẼ của Anh Trai)."
+    },
+    {
+      "tenVe": "SÓNG 3 (GOLD)",
+      "giaVe": 2500000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#8B5CF6",
+      "thongTinVe": "Khu vực ghế ngồi trung bình (Tương đương ĐỒNG LÒNG của Anh Trai)."
+    },
+    {
+      "tenVe": "SÓNG 4 (SILVER)",
+      "giaVe": 1800000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#1E3A8A",
+      "thongTinVe": "Khu vực xa sân khấu, ghế ngồi tiêu chuẩn (Tương đương CHUNG TAY của Anh Trai)."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2512006/ev2512006-seatmap.png",
+    "mappingMau": {
+      "#EF4444": "SÓNG 1 (VIP)",
+      "#F59E0B": "SÓNG 2 (PLATINUM)",
+      "#8B5CF6": "SÓNG 3 (GOLD)",
+      "#1E3A8A": "SÓNG 4 (SILVER)"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "TGB Media x YEAHTV",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Quận 2",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2512007",
+  "tenSuKien": "[CONCERT] ANH TRAI SAY HI - ĐÊM GALA",
+  "anhSuKien": "../Images/images/events/ev2512007/ev2512007-poster.jpg",
+  "banner": "../Images/images/events/ev2512007/ev2512007-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "Hà Nội",
+      "quan": "Nam Từ Liêm",
+      "phuong": "Mỹ Đình",
+      "soNha": "Cung Thể thao Quần Ngựa, Số 3 Lê Đức Thọ"
+    }
+  },
+  "theLoai": "Âm nhạc",
+  "thongTinSuKien": "../images/events/ev2512007/ev2512007-info.jpg",
+  "linkSuKien": "https://tannivan.vn/event/ev2512007-anh-trai-say-hi-gala",
+  "banToChuc": {
+    "ten": "Yeah1 Group x 1Production",
+    "thongTin": "Đêm Gala cuối cùng của Series Anh Trai.",
+    "logo": "../Images/images/events/ev2512007/ev2512007-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-12-09T18:00:00",
+    "ketThuc": "2025-12-09T21:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "GALA - SHOW 1",
+      "batDau": "2025-12-09T18:00:00",
+      "ketThuc": "2025-12-09T19:30:00"
+    },
+    {
+      "ten": "GALA - SHOW 2",
+      "batDau": "2025-12-09T19:30:00",
+      "ketThuc": "2025-12-09T21:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "VIP (HI)",
+      "giaVe": 4000000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực VIP, gần sân khấu. Bao gồm Photo Card & Hi-touch (Tương đương VŨ ĐIỆU của Anh Trai)."
+    },
+    {
+      "tenVe": "PLATINUM (SAY)",
+      "giaVe": 3000000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực ghế ngồi tốt, tầm nhìn rõ."
+    },
+    {
+      "tenVe": "GOLD (ANH)",
+      "giaVe": 2000000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#8B5CF6",
+      "thongTinVe": "Khu vực ghế ngồi trung bình."
+    },
+    {
+      "tenVe": "SILVER (TRAI)",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 250,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#1E3A8A",
+      "thongTinVe": "Khu vực xa sân khấu, ghế ngồi tiêu chuẩn."
+    }
+  ],
+  "seatmap": {
+    "anh": "../images/events/ev2512007/ev2512007-seatmap.png",
+    "mappingMau": {
+      "#EF4444": "VIP (HI)",
+      "#F59E0B": "PLATINUM (SAY)",
+      "#8B5CF6": "GOLD (ANH)",
+      "#1E3A8A": "SILVER (TRAI)"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Yeah1 Group x 1Production",
+    "soTaiKhoan": "123456789",
+    "nganHang": "MB Bank",
+    "chiNhanh": "Hà Nội",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2512009",
+  "tenSuKien": "[CONCERT] VŨ CÁT TƯỜNG: VETEN - NGÀY CUỐI CÙNG",
+  "anhSuKien": "../Images/images/events/ev2512009/ev2512009-poster.jpg",
+  "banner": "../Images/images/events/ev2512009/ev2512009-banner.png",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 1",
+      "phuong": "Bến Nghé",
+      "soNha": "Nhà hát Hòa Bình, 240 Đường 3/2"
+    }
+  },
+  "theLoai": "Âm nhạc",
+  "thongTinSuKien": "<section><h3>Giới thiệu chương trình</h3><p>Đêm concert cuối cùng trong năm của <strong>Vũ Cát Tường</strong> – <em>VETEN - Ngày Cuối Cùng</em> sẽ mang đến một hành trình âm nhạc sâu lắng, khép lại năm 2025 bằng những giai điệu chạm đến trái tim người hâm mộ.</p><h4>Thông tin nổi bật</h4><ul><li><strong>Vé VENUS</strong>: khu vực VIP, gần sân khấu nhất, bao gồm quà tặng độc quyền và ưu tiên vào cửa.</li><li>Trải nghiệm không gian âm nhạc được dàn dựng hiện đại, kết hợp ánh sáng – âm thanh chuẩn quốc tế.</li><li>Sự kiện có sử dụng ánh sáng Strobe – không phù hợp với khán giả nhạy cảm với ánh sáng mạnh.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2512009-vu-cat-tuong-veten",
+  "banToChuc": {
+    "ten": "The V Production",
+    "thongTin": "Đơn vị tổ chức các sự kiện âm nhạc của Vũ Cát Tường.",
+    "logo": "../Images/images/events/ev2512009/ev2512009-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-12-21T20:00:00",
+    "ketThuc": "2025-12-21T23:00:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "CONCERT VETEN - NGÀY CUỐI CÙNG",
+      "batDau": "2025-12-21T20:00:00",
+      "ketThuc": "2025-12-21T23:00:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "SADNESS",
+      "giaVe": 850000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#1E3A8A",
+      "thongTinVe": "Khu vực xa sân khấu."
+    },
+    {
+      "tenVe": "BROKEN",
+      "giaVe": 850000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 100,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#1E3A8A",
+      "thongTinVe": "Khu vực xa sân khấu."
+    },
+    {
+      "tenVe": "YEU XA",
+      "giaVe": 1500000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực trung tâm bên trái sân khấu."
+    },
+    {
+      "tenVe": "VE NHÀ",
+      "giaVe": 1500000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": "#F59E0B",
+      "thongTinVe": "Khu vực trung tâm bên phải sân khấu."
+    },
+    {
+      "tenVe": "VENUS",
+      "giaVe": 3000000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực VIP, chính giữa, gần sân khấu nhất. Bao gồm quà tặng độc quyền."
+    },
+    {
+      "tenVe": "MƠ",
+      "giaVe": 3000000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 3,
+      "mauKhuVuc": "#EF4444",
+      "thongTinVe": "Khu vực VIP, chính giữa, gần sân khấu nhất. Bao gồm quà tặng độc quyền."
+    },
+    {
+      "tenVe": "HÀNH TINH ÁNH SÁNG",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#8B5CF6",
+      "thongTinVe": "Khu vực phía trên trái sân khấu, tầm nhìn rộng."
+    },
+    {
+      "tenVe": "MỘT ĐÊM DUY NHẤT",
+      "giaVe": 1200000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 200,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": "#8B5CF6",
+      "thongTinVe": "Khu vực phía trên phải sân khấu, tầm nhìn rộng."
+    }
+  ],
+  "seatmap": {
+    "anh": "../Images/images/events/ev2512009/ev2512009-seatmap.png",
+    "mappingMau": {
+      "#EF4444": "VENUS, MƠ",
+      "#F59E0B": "YEU XA, VE NHÀ",
+      "#8B5CF6": "HÀNH TINH ÁNH SÁNG, MỘT ĐÊM DUY NHẤT",
+      "#1E3A8A": "SADNESS, BROKEN"
+    }
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "The V Production",
+    "soTaiKhoan": "123456789",
+    "nganHang": "Techcombank",
+    "chiNhanh": "Quận 1",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+,
+{
+  "id": "ev2512011",
+  "tenSuKien": "[Nhà Hát THANH NIÊN] Hài kịch: Lạc Lối Ở Bangkok",
+  "anhSuKien": "../Images/images/events/ev2512011/ev2512011-poster.jpg",
+  "banner": "../Images/images/events/ev2512011/ev2512011-banner.jpg",
+  "diaChi": {
+    "loai": "offline",
+    "diaDiem": {
+      "tinh": "TP.HCM",
+      "quan": "Quận 1",
+      "phuong": "Bến Nghé",
+      "soNha": "Nhà Hát Thanh Niên, 145 Hai Bà Trưng"
+    }
+  },
+  "theLoai": "Sân khấu - Kịch",
+  "thongTinSuKien": "<section><h3>Giới thiệu vở diễn</h3><p><strong>Lạc Lối Ở Bangkok</strong> – vở hài kịch đình đám trở lại sân khấu <strong>Nhà Hát Thanh Niên</strong>. Câu chuyện xoay quanh chuyến du lịch 'bão táp' của nhóm bạn trẻ Việt Nam tại Thái Lan, nơi hàng loạt tình huống dở khóc dở cười liên tiếp xảy ra.</p><p>Với sự tham gia của dàn diễn viên nổi tiếng, vở diễn hứa hẹn mang đến tiếng cười sảng khoái cùng những khoảnh khắc ý nghĩa về tình bạn và cuộc sống.</p><h4>Khuyến cáo</h4><ul><li>Chương trình phù hợp cho khán giả trên 14 tuổi.</li><li>Vui lòng không ghi hình hoặc livestream trong suốt thời gian diễn ra vở kịch.</li></ul></section>",
+  "linkSuKien": "https://tannivan.vn/event/ev2512011-lac-loi-o-bangkok",
+  "banToChuc": {
+    "ten": "Nhà Hát Thanh Niên",
+    "thongTin": "Đơn vị chủ quản và tổ chức các vở diễn định kỳ.",
+    "logo": "../Images/images/events/ev2512011/ev2512011-logo-btc.png"
+  },
+  "thoiGian": {
+    "batDau": "2025-12-19T20:00:00",
+    "ketThuc": "2025-12-19T22:30:00"
+  },
+  "suatChieu": [
+    {
+      "ten": "SUẤT DIỄN DUY NHẤT - LẠC LỐI Ở BANGKOK",
+      "batDau": "2025-12-19T20:00:00",
+      "ketThuc": "2025-12-19T22:30:00"
+    }
+  ],
+  "loaiVe": [
+    {
+      "tenVe": "V.I.P Tầng Trệt (Hàng A-C)",
+      "giaVe": 450000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 80,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 4,
+      "mauKhuVuc": null,
+      "thongTinVe": "Vị trí tốt nhất, gần sân khấu, tặng nước suối."
+    },
+    {
+      "tenVe": "Thường Tầng Trệt (Hàng D-G)",
+      "giaVe": 350000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 120,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": null,
+      "thongTinVe": "Vị trí trung tâm tầng trệt."
+    },
+    {
+      "tenVe": "Vé Ban Công (Lầu)",
+      "giaVe": 250000,
+      "trangThai": "Còn vé",
+      "tongSoLuong": 150,
+      "soLuongToiThieu": 1,
+      "soLuongToiDa": 5,
+      "mauKhuVuc": null,
+      "thongTinVe": "Vị trí trên lầu, tầm nhìn từ trên cao."
+    }
+  ],
+  "seatmap": {
+    "anh": null,
+    "mappingMau": {}
+  },
+  "thanhToan": {
+    "chuTaiKhoan": "Nhà Hát Thanh Niên",
+    "soTaiKhoan": "123456789",
+    "nganHang": "Vietinbank",
+    "chiNhanh": "Quận 1",
+    "xuatHoaDon": {
+      "loaiHinh": "Công ty TNHH",
+      "hoTen": "Công ty TNHH Tanivan",
+      "diaChi": "669 Đỗ Mười, Thủ Đức, TP.HCM",
+      "maSoThue": "0312345678"
+    }
+  }
+}
+
+]
