@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANIVAN TICKET - QUẢN LÝ SỰ KIỆN</title>
+    <meta name="description"
+        content="Bảng điều khiển quản trị TANIVAN TICKET - Theo dõi hiệu suất, quản lý vé concert và các tài khoản người dùng">
+    <link rel="preload" href="../Images/logo Tanivan.png" as="image">
+    <link rel="stylesheet" href="../CSS/event.management.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+    <script src="../JS/event.management.js" defer></script>
+    <script src="../JS/include.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <!-- MAIN LAYOUT -->
+    <div class="admin-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar" aria-label="Menu điều hướng chính" role="navigation">
+            <h2>DANH MỤC QUẢN TRỊ</h2>
+            <nav>
+                <a href="admin.homepage.html" class="sidebar-link " data-label="Dashboard" data-page="dashboard">
+                    <span class="menu-text">DASHBOARD</span>
+                </a>
+                <a href="event.management.html" class="sidebar-link" data-label="Event Management" data-page="tickets">
+                    <span class="menu-text">QUẢN LÝ SỰ KIỆN</span>
+                </a>
+                <a href="ticket.management.html" class="sidebar-link" data-label="Ticket Management"
+                    data-page="tickets">
+                    <span class="menu-text">QUẢN LÝ VÉ VÀ GIAO DỊCH</span>
+                </a>
+                <a href="account.management.html" class="sidebar-link" data-label="Account Management"
+                    data-page="accounts">
+                    <span class="menu-text">QUẢN LÝ TÀI KHOẢN</span>
+                </a>
+                <a href="marketing.management.html" class="sidebar-link" data-label="Marketing Management" data-page="marketing">
+                    <span class="menu-text">KHUYẾN MÃI VÀ TIẾP THỊ</span>
+                    <i class="menu-indicator"></i>
+                </a>
+               
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="dashboard-content" id="main-content" tabindex="-1">
+            <header class="page-header">
+                <h2>🎵 Quản lý Sự kiện</h2>
+                <p>Duyệt, xem và quản lý tất cả các sự kiện được gửi lên hệ thống.</p>
+                <button class="btn-refresh-icon" id="refreshEventsBtn" aria-label="Làm mới dữ liệu">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+            </header>
+
+            <!-- FILTER BAR -->
+            <section class="filter-bar">
+                <div class="filter-group main-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="mainSearch" placeholder="Tìm tên sự kiện..." class="filter-input">
+                </div>
+                <div class="filter-group">
+                    <select id="statusFilter" class="filter-select">
+                        <option value="">Tất cả Trạng thái</option>
+                        <option value="pending_approval">Chờ duyệt</option>
+                        <option value="approved">Đã duyệt</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <select id="organizerFilter" class="filter-select">
+                        <option value="">Tất cả Nhà tổ chức</option>
+                        <!-- JS sẽ điền các nhà tổ chức vào đây -->
+                    </select>
+                </div>
+            </section>
+
+            <!-- EVENT TABLE -->
+            <section class="event-table-container">
+                <table class="event-table" id="eventTable">
+                    <thead>
+                        <tr>
+                            <th>Sự kiện</th>
+                            <th>Nhà tổ chức</th>
+                            <th>Ngày diễn ra</th>
+                            <th>Địa điểm</th>
+                            <th>Số vé bán ra</th>
+                            <th>Trạng thái</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody id="eventTableBody">
+                        <!-- Dữ liệu sự kiện sẽ được render vào đây -->
+                    </tbody>
+                </table>
+                <div class="table-footer">
+                    <div class="pagination" id="pagination"></div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer id="footer-placeholder"></footer>
+</body>
+
+</html>

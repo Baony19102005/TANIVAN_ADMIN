@@ -1,0 +1,158 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANIVAN TICKET - DASHBOARD</title>
+    <meta name="description"
+        content="Bảng điều khiển quản trị TANIVAN TICKET - Theo dõi hiệu suất, quản lý vé concert và các tài khoản người dùng">
+    <link rel="preload" href="../Images/logo Tanivan.png" as="image">
+    <link rel="stylesheet" href="../CSS/admin.homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+    <script src="../JS/homepage.js" defer></script>
+    <script src="../JS/include.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <!-- MAIN LAYOUT -->
+    <div class="admin-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar" aria-label="Menu điều hướng chính" role="navigation">
+            <h2>DANH MỤC QUẢN TRỊ</h2>
+            <nav>
+                <a href="admin.homepage.html" class="sidebar-link " data-label="Dashboard" data-page="dashboard">
+                    <span class="menu-text">DASHBOARD</span>
+                </a>
+                <a href="event.management.html" class="sidebar-link" data-label="Event Management" data-page="tickets">
+                    <span class="menu-text">QUẢN LÝ SỰ KIỆN</span>
+                </a>
+                <a href="ticket.management.html" class="sidebar-link" data-label="Ticket Management"
+                    data-page="tickets">
+                    <span class="menu-text">QUẢN LÝ VÉ VÀ GIAO DỊCH</span>
+                </a>
+                    <a href="account.management.html" class="sidebar-link" data-label="Account Management"
+                        data-page="accounts">
+                        <span class="menu-text">QUẢN LÝ TÀI KHOẢN</span>
+                    </a>
+                    <a href="marketing.management.html" class="sidebar-link" data-label="Marketing Management" data-page="marketing">
+                        <span class="menu-text">KHUYẾN MÃI VÀ TIẾP THỊ</span>
+                        <i class="menu-indicator"></i>
+                    </a>
+                   
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="dashboard-content" id="main-content" tabindex="-1">
+            <header class="page-header">
+                <h2>📊 TỔNG QUAN HOẠT ĐỘNG</h2>
+                <p>Chào mừng Bảo Ny đã quay trở lại! Dưới đây là tổng quan hoạt động của Tanivan trong ngày hôm nay.</p>
+                <!-- Nút làm mới dạng icon mới -->
+                <button class="btn-refresh-icon" id="btn-refresh-dashboard" aria-label="Làm mới dữ liệu">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+            </header>
+
+            <!-- ======================= KPI CARDS START ======================= -->
+            <section class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-icon icon-revenue">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <div class="kpi-text">
+                        <span class="kpi-label">Doanh thu hôm nay</span>
+                        <span class="kpi-value" id="kpi-revenue-today">---</span>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon icon-tickets">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <div class="kpi-text">
+                        <span class="kpi-label">Vé bán ra hôm nay</span>
+                        <span class="kpi-value" id="kpi-tickets-today">---</span>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon icon-users">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <div class="kpi-text">
+                        <span class="kpi-label">Người dùng mới</span>
+                        <span class="kpi-value" id="kpi-new-users">---</span>
+                    </div>
+                </div>
+            </section>
+            <!-- ======================= KPI CARDS END ======================= -->
+
+            <!-- ======================= DASHBOARD GRID START ======================= -->
+            <section class="dashboard-grid">
+                <!-- LEFT COLUMN -->
+                <div class="grid-left-column">
+                    <div class="dashboard-card" id="revenue-by-type">
+                        <h3 class="card-header">Doanh thu theo Loại sự kiện (6 tháng gần nhất)</h3>
+                        <div class="card-body">
+                            <canvas id="revenueChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="dashboard-card" id="ticket-sales-quarterly">
+                        <h3 class="card-header">Số vé bán ra theo quý (năm nay)</h3>
+                        <div class="card-body">
+                            <canvas id="salesChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT COLUMN -->
+                <div class="grid-right-column">
+                    <div class="dashboard-card" id="top-concerts">
+                        <h3 class="card-header">Top 5 Concert bán chạy nhất</h3>
+                        <div class="card-body scrollable">
+                            <table>
+                                <!-- Dữ liệu sẽ được JS render, đây là cấu trúc -->
+                                <thead>
+                                    <tr>
+                                        <th>Tên Concert</th>
+                                        <th>Vé đã bán</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="top-concerts-body">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="dashboard-card" id="recent-activity">
+                        <h3 class="card-header">Hoạt động gần đây</h3>
+                        <div class="card-body scrollable">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Khách hàng</th>
+                                        <th>Sự kiện</th>
+                                        <th>Thời gian</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="recent-activity-body">
+                                    <!-- Dữ liệu sẽ được JS render vào đây -->
+                                    <tr>
+                                        <td colspan="3" style="text-align: center;">Đang tải dữ liệu...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ======================== DASHBOARD GRID END ======================== -->
+
+        </main>
+    </div>
+
+    <footer id="footer-placeholder"></footer>
+</body>
+
+</html>

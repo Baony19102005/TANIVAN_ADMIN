@@ -1,0 +1,152 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANIVAN TICKET - DASHBOARD</title>
+    <meta name="description"
+        content="Bảng điều khiển quản trị TANIVAN TICKET - Theo dõi hiệu suất, quản lý vé concert và các tài khoản người dùng">
+    <link rel="preload" href="../Images/logo Tanivan.png" as="image">
+    <link rel="stylesheet" href="../CSS/marketing.management.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+    <script src="../JS/marketing.management.js" defer></script>
+    <script src="../JS/include.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <!-- MAIN LAYOUT -->
+    <div class="admin-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar" aria-label="Menu điều hướng chính" role="navigation">
+            <h2>DANH MỤC QUẢN TRỊ</h2>
+            <nav>
+                <a href="admin.homepage.html" class="sidebar-link" data-label="Dashboard" data-page="dashboard">
+                    <span class="menu-text">DASHBOARD</span>
+                </a>
+                <a href="event.management.html" class="sidebar-link" data-label="Event Management" data-page="tickets">
+                    <span class="menu-text">QUẢN LÝ SỰ KIỆN</span>
+                </a>
+                <a href="ticket.management.html" class="sidebar-link" data-label="Ticket Management"
+                    data-page="tickets">
+                    <span class="menu-text">QUẢN LÝ VÉ VÀ GIAO DỊCH</span>
+                </a>
+                <a href="account.management.html" class="sidebar-link" data-label="Account Management"
+                    data-page="accounts">
+                    <span class="menu-text">QUẢN LÝ TÀI KHOẢN</span>
+                </a>
+                <a href="marketing.management.html" class="sidebar-link" data-label="Marketing Management"
+                    data-page="marketing">
+                    <span class="menu-text">KHUYẾN MÃI VÀ TIẾP THỊ</span>
+                    <i class="menu-indicator"></i>
+                </a>
+                
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="dashboard-content" id="main-content" tabindex="-1">
+            <header class="page-header">
+                <h2>🏷️ Khuyến mãi & Tiếp thị</h2>
+                <p>Tạo và quản lý các mã giảm giá cho sự kiện của bạn.</p>
+                <button class="btn-refresh-icon" id="refreshBtn" aria-label="Làm mới dữ liệu">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+            </header>
+
+            <section class="summary-bar">
+                <div class="summary-card">
+                    <div class="summary-icon icon-total-codes"><i class="fas fa-tags"></i></div>
+                    <div class="summary-text"><span class="summary-value" id="summary-total">0</span><span
+                            class="summary-label">Tổng số mã</span></div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon icon-active-codes"><i class="fas fa-check"></i></div>
+                    <div class="summary-text"><span class="summary-value" id="summary-active">0</span><span
+                            class="summary-label">Đang hoạt động</span></div>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon icon-expired-codes"><i class="fas fa-history"></i></div>
+                    <div class="summary-text"><span class="summary-value" id="summary-expired">0</span><span
+                            class="summary-label">Đã hết hạn/hết lượt</span></div>
+                </div>
+            </section>
+
+            <section class="filter-bar">
+                <div class="filter-group main-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="mainSearch" placeholder="Tìm theo mã khuyến mãi..." class="filter-input">
+                </div>
+                <div class="filter-group">
+                    <select id="statusFilter" class="filter-select">
+                        <option value="">Tất cả Trạng thái</option>
+                        <option value="active">Đang hoạt động</option>
+                        <option value="expired">Đã hết hạn</option>
+                    </select>
+                </div>
+                <button class="btn-primary" id="createPromoBtn"><i class="fas fa-plus-circle"></i> Tạo mã khuyến
+                    mãi</button>
+            </section>
+
+            <!-- PROMO CODE GRID -->
+            <section class="promo-code-grid" id="promoCodeGrid">
+                <!-- Các thẻ mã khuyến mãi sẽ được render vào đây -->
+            </section>
+            <div class="pagination" id="pagination"></div>
+
+            <!-- CREATE/EDIT PROMO CODE MODAL -->
+            <div class="modal" id="promoCodeModal">
+                <div class="modal-content">
+                    <button class="modal-close" id="modalCloseBtn"><i class="fas fa-times"></i></button>
+                    <h3 id="modalTitle">Tạo mã khuyến mãi mới</h3>
+                    <div class="modal-body">
+                        <div class="modal-grid">
+                            <div class="form-group full-width">
+                                <label for="promo-code">Mã khuyến mãi</label>
+                                <div class="input-with-button">
+                                    <input type="text" id="promo-code" placeholder="VD: SUMMER2025">
+                                    <button id="generateCodeBtn">Ngẫu nhiên</button>
+                                </div>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="promo-description">Mô tả</label>
+                                <input type="text" id="promo-description"
+                                    placeholder="VD: Giảm giá cho sự kiện MTP Sky Tour">
+                            </div>
+                            <div class="form-group">
+                                <label for="promo-type">Loại giảm giá</label>
+                                <select id="promo-type" class="filter-select">
+                                    <option value="percentage">Phần trăm (%)</option>
+                                    <option value="fixed_amount">Số tiền cố định (VNĐ)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="promo-value">Giá trị giảm</label>
+                                <input type="number" id="promo-value" placeholder="VD: 10 hoặc 50000">
+                            </div>
+                            <div class="form-group">
+                                <label for="promo-limit">Số lần sử dụng</label>
+                                <input type="number" id="promo-limit" placeholder="VD: 100">
+                            </div>
+                            <div class="form-group">
+                                <label for="promo-expiry">Ngày hết hạn</label>
+                                <input type="date" id="promo-expiry" class="filter-input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="btn-primary" id="savePromoBtn"><i class="fas fa-save"></i> Lưu mã</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer id="footer-placeholder"></footer>
+</body>
+
+</html>

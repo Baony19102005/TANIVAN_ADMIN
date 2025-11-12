@@ -1,0 +1,199 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TANIVAN TICKET - DASHBOARD</title>
+  <meta name="description"
+    content="Bảng điều khiển quản trị TANIVAN TICKET - Theo dõi hiệu suất, quản lý vé concert và các tài khoản người dùng">
+  <link rel="preload" href="../Images/logo Tanivan.png" as="image">
+  <link rel="stylesheet" href="../CSS/ticket.management.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+  <script src="../JS/ticket.management.js" defer></script>
+  <script src="../JS/include.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+</head>
+
+<body>
+  <div id="header-placeholder"></div>
+
+  <!-- MAIN LAYOUT -->
+  <div class="admin-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar" aria-label="Menu điều hướng chính" role="navigation">
+      <h2>DANH MỤC QUẢN TRỊ</h2>
+      <nav>
+        <a href="admin.homepage.html" class="sidebar-link" data-label="Dashboard" data-page="dashboard">
+          <span class="menu-text">DASHBOARD</span>
+        </a>
+        <a href="event.management.html" class="sidebar-link" data-label="Event Management" data-page="tickets">
+          <span class="menu-text">QUẢN LÝ SỰ KIỆN</span>
+        </a>
+        <a href="ticket.management.html" class="sidebar-link" data-label="Ticket Management" data-page="tickets">
+          <span class="menu-text">QUẢN LÝ VÉ VÀ GIAO DỊCH</span>
+        </a>
+        <a href="account.management.html" class="sidebar-link" data-label="Account Management" data-page="accounts">
+          <span class="menu-text">QUẢN LÝ TÀI KHOẢN</span>
+        </a>
+        <a href="marketing.management.html" class="sidebar-link" data-label="Marketing Management"
+          data-page="marketing">
+          <span class="menu-text">KHUYẾN MÃI VÀ TIẾP THỊ</span>
+          <i class="menu-indicator"></i>
+        </a>
+
+      </nav>
+    </aside>
+    <!-- MAIN CONTENT -->
+    <main class="dashboard-content" id="main-content" tabindex="-1">
+      <header class="page-header">
+        <h2>🎟️ Quản lý Vé & Giao dịch</h2>
+        <p>Theo dõi, tìm kiếm và xử lý tất cả các đơn hàng vé.</p>
+
+        <!-- ===== BỔ SUNG NÚT NÀY VÀO ĐÂY ===== -->
+        <button class="btn-refresh-icon" id="refreshOrdersBtn" aria-label="Làm mới dữ liệu">
+          <i class="fas fa-sync-alt"></i>
+        </button>
+        <!-- ==================================== -->
+
+      </header>
+
+      <!-- SUMMARY BAR -->
+      <section class="summary-bar">
+        <div class="summary-card">
+          <div class="summary-icon icon-pending"><i class="fas fa-hourglass-half"></i></div>
+          <div class="summary-text"><span class="summary-value" id="summary-pending">0</span><span
+              class="summary-label">Chờ xử lý</span></div>
+        </div>
+        <div class="summary-card">
+          <div class="summary-icon icon-success"><i class="fas fa-check-circle"></i></div>
+          <div class="summary-text"><span class="summary-value" id="summary-paid">0</span><span
+              class="summary-label">Thành công (hôm nay)</span></div>
+        </div>
+        <!-- Removed cancelled & refund summary cards — system only has Pending and Paid statuses -->
+      </section>
+
+      <!-- FILTER BAR -->
+      <section class="filter-bar">
+        <div class="filter-group main-search">
+          <i class="fas fa-search"></i>
+          <input type="text" id="mainSearch" placeholder="Tìm theo Mã ĐH, Tên khách hàng, Email..."
+            class="filter-input">
+        </div>
+        <div class="filter-group">
+          <select id="statusFilter" class="filter-select">
+            <option value="">Tất cả Trạng thái</option>
+            <option value="pending">Chờ thanh toán</option>
+            <option value="paid">Đã thanh toán</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <select id="eventFilter" class="filter-select">
+            <option value="">Tất cả Sự kiện</option>
+            <!-- JS sẽ điền các sự kiện vào đây -->
+          </select>
+        </div>
+        <div class="filter-group">
+          <input type="date" id="dateFrom" class="filter-input">
+          <span>-</span>
+          <input type="date" id="dateTo" class="filter-input">
+        </div>
+      </section>
+
+      <!-- ORDER TABLE -->
+      <section class="order-table-container">
+        <table class="order-table" id="orderTable">
+          <thead>
+            <tr>
+              <th><input type="checkbox" id="selectAllCheckbox"></th>
+              <th>Mã ĐH</th>
+              <th>Khách hàng</th>
+              <th>Sự kiện</th>
+              <th>Ngày tạo</th>
+              <th>Tổng tiền</th>
+              <th>Trạng thái</th>
+              <th>Hành động</th>
+            </tr>
+          </thead>
+          <tbody id="orderTableBody">
+            <!-- Dữ liệu đơn hàng sẽ được render vào đây -->
+          </tbody>
+        </table>
+        <div class="table-footer">
+          <div class="bulk-actions">
+            <select id="bulkActionSelect" disabled>
+              <option>Hành động hàng loạt</option>
+              <option value="mark_paid">Đánh dấu Đã thanh toán</option>
+            </select>
+            <button id="applyBulkActionBtn" disabled>Áp dụng</button>
+          </div>
+          <div class="pagination" id="pagination"></div>
+        </div>
+      </section>
+
+      <!-- ORDER DETAIL MODAL -->
+      <div class="modal" id="orderDetailModal">
+        <div class="modal-content">
+          <button class="modal-close" id="modalCloseBtn"><i class="fas fa-times"></i></button>
+          <h3 id="modalTitle">Chi tiết Đơn hàng #TNV10001</h3>
+          <div class="modal-body">
+            <div class="modal-grid">
+              <!-- Thông tin khách hàng -->
+              <div class="modal-section" id="customerInfoSection">
+                <h4><i class="fas fa-user"></i> Thông tin khách hàng</h4>
+                <div class="info-pair">
+                  <span class="info-label">Tên:</span>
+                  <span class="info-value" id="modal-customer-name"></span>
+                </div>
+                <div class="info-pair">
+                  <span class="info-label">Email:</span>
+                  <span class="info-value" id="modal-customer-email"></span>
+                </div>
+              </div>
+
+              <!-- Chi tiết vé -->
+              <div class="modal-section" id="ticketInfoSection">
+                <h4><i class="fas fa-ticket-alt"></i> Chi tiết vé</h4>
+                <div id="modal-ticket-details">
+                  <!-- JS sẽ render chi tiết vé vào đây -->
+                </div>
+                <hr>
+                <div class="info-pair total">
+                  <strong>Tổng cộng</strong>
+                  <strong id="modal-total-price"></strong>
+                </div>
+              </div>
+
+              <!-- Thông tin thanh toán -->
+              <div class="modal-section full-width" id="paymentInfoSection">
+                <h4><i class="fas fa-credit-card"></i> Thông tin thanh toán</h4>
+                <div class="info-pair">
+                  <span class="info-label">Ngày tạo:</span>
+                  <span class="info-value" id="modal-order-date"></span>
+                </div>
+                <div class="info-pair">
+                  <span class="info-label">Trạng thái:</span>
+                  <select id="modalStatusSelect" class="filter-select">
+                    <option value="pending">Chờ thanh toán</option>
+                    <option value="paid">Đã thanh toán</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Nút hành động trong modal -->
+          <div class="modal-actions">
+            <button class="btn-secondary" id="resendEmailBtn"><i class="fas fa-envelope"></i> Gửi lại email</button>
+            <button class="btn-danger" id="cancelOrderBtn"><i class="fas fa-ban"></i> Hủy đơn hàng</button>
+            <button class="btn-primary" id="saveOrderBtn"><i class="fas fa-save"></i> Lưu thay đổi</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    </div>
+
+      <footer id="footer-placeholder"></footer>
+</body>
+
+</html>

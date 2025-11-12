@@ -1,0 +1,52 @@
+<!-- File: templates/header.html -->
+<header class="admin-header" role="banner">
+    <div class="admin-header-left">
+        <button class="hamburger" id="hamburgerBtn" aria-label="Mở/đóng menu sidebar" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <img src="../Images/logo Tanivan.png" alt="Logo Tanivan" class="admin-logo" loading="eager">
+    </div>
+
+    <div class="admin-header-center">
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="search" placeholder="Tìm kiếm đơn hàng, khách hàng, sự kiện..." class="admin-search"
+                aria-label="Tìm kiếm" autocomplete="off">
+            <div class="search-results" id="search-results-container">
+                <!-- Kết quả tìm kiếm sẽ được render vào đây bằng JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <div class="admin-header-right">
+        <div class="admin-icon notif" role="button" tabindex="0" aria-label="Thông báo">
+            <button class="notif-bell" id="notifBtn" aria-expanded="false">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path fill="currentColor"
+                        d="M12 2a5 5 0 00-5 5v2.09c0 .53-.21 1.04-.59 1.41L4.7 12.62A1 1 0 005 14h14a1 1 0 00.83-1.57l-1.71-2.12a2 2 0 01-.45-1.28V7a5 5 0 00-5-5zm0 20a3 3 0 01-2.82-2h5.64A3 3 0 0112 22z" />
+                </svg>
+                <span class="notif-badge" aria-hidden="true" style="display:none"></span>
+            </button>
+            <div class="notif-dropdown" id="notifDropdown" role="menu" aria-labelledby="notifBtn">
+                <div class="notif-head">
+                    <span>Thông báo</span>
+                    <span class="notif-count" id="notif-count-text"></span>
+                </div>
+                <ul role="menu" aria-label="Danh sách thông báo" id="notification-list"></ul>
+                <a href="#" class="notif-viewall" role="menuitem">Xem tất cả thông báo</a>
+            </div>
+        </div>
+
+        <div class="admin-user">
+            <img src="../Images/baony.jpg" alt="Ảnh đại diện Admin" class="admin-avatar" loading="lazy">
+            <div class="admin-user-info">
+                <span class="admin-name" aria-label="Admin"> Bảo Ny </span>
+                <span class="admin-role">Quản trị viên</span>
+            </div>
+            <button class="logout-btn" aria-label="Đăng xuất" title="Đăng xuất">
+                <i class="fas fa-sign-out-alt"></i>
+            </button>
+        </div>
+    </div>
+</header>
+

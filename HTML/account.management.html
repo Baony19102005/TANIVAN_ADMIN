@@ -1,0 +1,161 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANIVAN TICKET - DASHBOARD</title>
+    <meta name="description"
+        content="Bảng điều khiển quản trị TANIVAN TICKET - Theo dõi hiệu suất, quản lý vé concert và các tài khoản người dùng">
+    <link rel="preload" href="../Images/logo Tanivan.png" as="image">
+    <link rel="stylesheet" href="../CSS/account.management.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+    <script src="../JS/account.management.js" defer></script>
+    <script src="../JS/include.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <!-- MAIN LAYOUT -->
+    <div class="admin-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar" aria-label="Menu điều hướng chính" role="navigation">
+            <h2>DANH MỤC QUẢN TRỊ</h2>
+            <nav>
+                <a href="admin.homepage.html" class="sidebar-link " data-label="Dashboard" data-page="dashboard">
+                    <span class="menu-text">DASHBOARD</span>
+                </a>
+                <a href="event.management.html" class="sidebar-link" data-label="Event Management" data-page="tickets">
+                    <span class="menu-text">QUẢN LÝ SỰ KIỆN</span>
+                </a>
+                <a href="ticket.management.html" class="sidebar-link" data-label="Ticket Management"
+                    data-page="tickets">
+                    <span class="menu-text">QUẢN LÝ VÉ VÀ GIAO DỊCH</span>
+                </a>
+                    <a href="account.management.html" class="sidebar-link" data-label="Account Management"
+                        data-page="accounts">
+                        <span class="menu-text">QUẢN LÝ TÀI KHOẢN</span>
+                    </a>
+                    <a href="marketing.management.html" class="sidebar-link" data-label="Marketing Management" data-page="marketing">
+                        <span class="menu-text">KHUYẾN MÃI VÀ TIẾP THỊ</span>
+                        <i class="menu-indicator"></i>
+                    </a>
+                  
+            </nav>
+        </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="dashboard-content" id="main-content" tabindex="-1">
+      <header class="page-header">
+        <h2>👤 Quản lý Tài khoản</h2>
+        <p>Tìm kiếm, quản lý và xem chi tiết hoạt động của tất cả người dùng.</p>
+        <button class="btn-refresh-icon" id="refreshUsersBtn" aria-label="Làm mới dữ liệu">
+          <i class="fas fa-sync-alt"></i>
+        </button>
+      </header>
+
+      <!-- SUMMARY BAR -->
+      <section class="summary-bar">
+        <div class="summary-card">
+          <div class="summary-icon icon-total-users"><i class="fas fa-users"></i></div>
+          <div class="summary-text"><span class="summary-value" id="summary-total">0</span><span
+              class="summary-label">Tổng tài khoản</span></div>
+        </div>
+        <div class="summary-card">
+          <div class="summary-icon icon-new-users"><i class="fas fa-user-plus"></i></div>
+          <div class="summary-text"><span class="summary-value" id="summary-new">0</span><span class="summary-label">Mới
+              (tuần này)</span></div>
+        </div>
+        <div class="summary-card">
+          <div class="summary-icon icon-organizers"><i class="fas fa-microphone-alt"></i></div>
+          <div class="summary-text"><span class="summary-value" id="summary-organizers">0</span><span
+              class="summary-label">Nhà tổ chức</span></div>
+        </div>
+        <div class="summary-card">
+          <div class="summary-icon icon-suspended"><i class="fas fa-user-lock"></i></div>
+          <div class="summary-text"><span class="summary-value" id="summary-suspended">0</span><span
+              class="summary-label">Bị tạm ngưng</span></div>
+        </div>
+      </section>
+
+      <!-- FILTER BAR -->
+      <section class="filter-bar">
+        <div class="filter-group main-search"><i class="fas fa-search"></i><input type="text" id="mainSearch"
+            placeholder="Tìm theo Tên, Email, User ID..." class="filter-input"></div>
+        <div class="filter-group"><select id="roleFilter" class="filter-select">
+            <option value="">Tất cả Vai trò</option>
+            <option value="buyer">Chỉ là Người mua</option>
+            <option value="organizer">Chỉ là Nhà tổ chức</option>
+            <option value="both">Vừa mua & Tổ chức</option>
+          </select></div>
+        <div class="filter-group"><select id="statusFilter" class="filter-select">
+            <option value="">Tất cả Trạng thái</option>
+            <option value="active">Đang hoạt động</option>
+            <option value="suspended">Bị tạm ngưng</option>
+          </select></div>
+        <div class="filter-group"><input type="date" id="dateFrom" class="filter-input"><span
+            class="date-separator">-</span><input type="date" id="dateTo" class="filter-input"></div>
+      </section>
+
+      <!-- USER TABLE -->
+      <section class="user-table-container">
+        <table class="user-table" id="userTable">
+          <thead>
+            <tr>
+              <th><input type="checkbox" id="selectAllCheckbox"></th>
+              <th>Người dùng</th>
+              <th>Vai trò</th>
+              <th>Hoạt động mua</th>
+              <th>Hoạt động tổ chức</th>
+              <th>Ngày tham gia</th>
+              <th>Trạng thái</th>
+              <th>Hành động</th>
+            </tr>
+          </thead>
+          <tbody id="userTableBody"></tbody>
+        </table>
+        <div class="table-footer">
+          <div class="bulk-actions"><select id="bulkActionSelect" disabled>
+              <option>Hành động hàng loạt</option>
+              <option value="activate">Kích hoạt tài khoản</option>
+              <option value="suspend">Tạm ngưng tài khoản</option>
+            </select><button id="applyBulkActionBtn" disabled>Áp dụng</button></div>
+          <div class="pagination" id="pagination"></div>
+        </div>
+      </section>
+
+      <!-- USER DETAIL MODAL -->
+      <div class="modal" id="userDetailModal">
+        <div class="modal-content large">
+          <button class="modal-close" id="modalCloseBtn"><i class="fas fa-times"></i></button>
+          <div class="modal-header">
+            <div id="modalUserAvatar"></div>
+            <h3 id="modalUserName"></h3>
+            <div id="modalUserEmail"></div>
+          </div>
+          <div class="modal-body">
+            <div class="tab-nav" id="modalTabNav">
+              <button class="tab-btn active" data-tab="overview">Tổng quan</button>
+              <button class="tab-btn" data-tab="buyer_activity">Lịch sử mua vé</button>
+              <button class="tab-btn" data-tab="organizer_activity">Hoạt động tổ chức</button>
+              <button class="tab-btn" data-tab="notes">Ghi chú</button>
+            </div>
+            <div class="tab-content" id="tab-overview"></div>
+            <div class="tab-content hidden" id="tab-buyer_activity"></div>
+            <div class="tab-content hidden" id="tab-organizer_activity"></div>
+            <div class="tab-content hidden" id="tab-notes"></div>
+          </div>
+          <div class="modal-actions">
+            <button class="btn-primary" id="saveUserBtn"><i class="fas fa-save"></i> Lưu thay đổi</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer id="footer-placeholder"></footer>
+</body>
+
+</html>
